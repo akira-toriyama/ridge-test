@@ -1,0 +1,21 @@
+{
+  "id": "t-nqf63",
+  "title": "常備菜の回転表 v1 — 平日5日を3品で回す型を作る",
+  "status": "done",
+  "priority": 1620,
+  "value": 4,
+  "effort": 2,
+  "labels": [],
+  "repos": [
+    "tomo/joubisai"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:34Z",
+  "closed": "2026-08-25T08:57:34Z",
+  "reviewed": null,
+  "body": "bodies/t-nqf63.md",
+  "epic": "e-ydy2m"
+}

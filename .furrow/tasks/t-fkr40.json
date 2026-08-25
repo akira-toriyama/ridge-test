@@ -1,0 +1,20 @@
+{
+  "id": "t-fkr40",
+  "title": "ダッチオーブンの手入れ — シーズニングをやり直して蓋の噛みを直す",
+  "status": "done",
+  "priority": 1630,
+  "value": 3,
+  "effort": 1,
+  "labels": [],
+  "repos": [
+    "tomo/joubisai"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:34Z",
+  "closed": "2026-08-25T08:57:34Z",
+  "reviewed": null,
+  "body": "bodies/t-fkr40.md"
+}

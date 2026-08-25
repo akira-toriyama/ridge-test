@@ -1,0 +1,23 @@
+{
+  "id": "t-e9j4d",
+  "title": "雨天プラン — 高千穂が霧で沈んだ日の屋内代替を並べる",
+  "status": "backlog",
+  "priority": 630,
+  "value": 3,
+  "effort": 3,
+  "labels": [],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [
+    "t-npb95"
+  ],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:33Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-e9j4d.md",
+  "epic": "e-dmk08"
+}

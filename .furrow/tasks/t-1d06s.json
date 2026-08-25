@@ -1,0 +1,40 @@
+{
+  "id": "t-1d06s",
+  "title": "焚き火台の選定 — 候補3台を借りて実際に焼いて決めた",
+  "status": "done",
+  "priority": 515,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "bbq"
+  ],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "候補3台のレンタル手配",
+      "done": true
+    },
+    {
+      "text": "同じ食材（肉・とうもろこし）で焼き比べ",
+      "done": true
+    },
+    {
+      "text": "撤収と灰の始末を時間計測",
+      "done": true
+    },
+    {
+      "text": "決定と購入・収納場所の確保",
+      "done": true
+    }
+  ],
+  "created": "2026-08-25T08:57:33Z",
+  "updated": "2026-08-25T08:57:34Z",
+  "closed": "2026-08-25T08:57:34Z",
+  "reviewed": null,
+  "body": "bodies/t-1d06s.md",
+  "epic": "e-dmk08"
+}

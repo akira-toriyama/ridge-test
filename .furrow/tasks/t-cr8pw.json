@@ -1,0 +1,23 @@
+{
+  "id": "t-cr8pw",
+  "title": "味噌の天地返し — 表面のカビを取ってから塩蓋をやり直す",
+  "status": "in-progress",
+  "priority": 3010,
+  "value": 3,
+  "effort": 2,
+  "labels": [
+    "bento"
+  ],
+  "repos": [
+    "tomo/joubisai"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:33Z",
+  "updated": "2026-08-25T08:57:33Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-cr8pw.md",
+  "epic": "e-ydy2m"
+}

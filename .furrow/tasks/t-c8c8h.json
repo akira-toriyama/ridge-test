@@ -1,0 +1,48 @@
+{
+  "id": "t-c8c8h",
+  "title": "装備の安全講習 — ナイフと火の扱いを子どもと練習する",
+  "status": "backlog",
+  "priority": 610,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "gear"
+  ],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "ナイフの受け渡しと持ち方（座って・鞘に戻すまで）",
+      "done": false
+    },
+    {
+      "text": "フェザースティック作りを1本最後まで",
+      "done": false
+    },
+    {
+      "text": "火起こしをメタルマッチで（マシュマロで釣る）",
+      "done": false
+    },
+    {
+      "text": "火の半径ルールをテープを張って体で覚える",
+      "done": false
+    },
+    {
+      "text": "革手袋のサイズ確認と買い足し",
+      "done": false
+    },
+    {
+      "text": "約束事3つを紙に書いて本人がサインする",
+      "done": false
+    }
+  ],
+  "created": "2026-08-25T08:57:33Z",
+  "updated": "2026-08-25T08:57:33Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-c8c8h.md",
+  "epic": "e-n8jpc"
+}

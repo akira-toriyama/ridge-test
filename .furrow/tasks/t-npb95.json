@@ -1,0 +1,24 @@
+{
+  "id": "t-npb95",
+  "title": "現地の遊び計画 — 川遊びと星見の装備・安全ルールを決める",
+  "status": "backlog",
+  "priority": 600,
+  "value": 4,
+  "effort": 4,
+  "labels": [],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [
+    "t-1d06s",
+    "t-btgw8"
+  ],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:33Z",
+  "updated": "2026-08-25T08:57:33Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-npb95.md",
+  "epic": "e-dmk08"
+}

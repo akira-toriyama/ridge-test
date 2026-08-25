@@ -1,0 +1,20 @@
+{
+  "id": "t-hwg6p",
+  "title": "立ち寄り温泉の下調べ — 家族風呂の有無と受付終了時刻を電話で確認",
+  "status": "done",
+  "priority": 2380,
+  "labels": [
+    "onsen"
+  ],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:34Z",
+  "closed": "2026-08-25T08:57:34Z",
+  "reviewed": null,
+  "body": "bodies/t-hwg6p.md"
+}

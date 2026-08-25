@@ -1,0 +1,25 @@
+{
+  "id": "t-btgw8",
+  "title": "決行判定と BBQ サイト予約 — 道具・車・食がそろったので阿蘇2泊を確定（デッキ付き A-7）",
+  "status": "done",
+  "priority": 1620,
+  "value": 5,
+  "effort": 4,
+  "labels": [],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [
+    "t-d8h41",
+    "t-fkr40",
+    "t-nqf63"
+  ],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:33Z",
+  "updated": "2026-08-25T08:57:34Z",
+  "closed": "2026-08-25T08:57:34Z",
+  "reviewed": null,
+  "body": "bodies/t-btgw8.md",
+  "epic": "e-dmk08"
+}

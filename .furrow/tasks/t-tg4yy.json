@@ -1,0 +1,22 @@
+{
+  "id": "t-tg4yy",
+  "title": "スパイスボックスの詰め替え — 使い切り小分けで現地の塩胡椒問題を消す",
+  "status": "in-progress",
+  "priority": 3020,
+  "value": 2,
+  "effort": 1,
+  "labels": [
+    "gear"
+  ],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:33Z",
+  "updated": "2026-08-25T08:57:33Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-tg4yy.md"
+}

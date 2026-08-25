@@ -1,0 +1,23 @@
+{
+  "id": "t-nrke0",
+  "title": "キャンセル規定の整理 — 台風時の判断期限をカレンダーに落とす",
+  "status": "backlog",
+  "priority": 640,
+  "value": 3,
+  "effort": 2,
+  "labels": [],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [
+    "t-btgw8"
+  ],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:33Z",
+  "updated": "2026-08-25T08:57:33Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-nrke0.md",
+  "epic": "e-dmk08"
+}

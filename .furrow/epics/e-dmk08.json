@@ -1,0 +1,22 @@
+{
+  "id": "e-dmk08",
+  "title": "九州キャンプ旅 2026 — 行程・予約・装備（阿蘇→高千穂 3泊）",
+  "goal": "阿蘇→高千穂 3泊の行程が確定し、予約と装備が揃っている",
+  "active": true,
+  "labels": [],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "meta": {
+    "origin": "2026-06 家族会議"
+  },
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:34Z",
+  "closed": null,
+  "body": "bodies/e-dmk08.md",
+  "deps": [
+    "e-ydy2m"
+  ],
+  "standing": false,
+  "pinned": false
+}

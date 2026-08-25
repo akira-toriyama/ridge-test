@@ -1,0 +1,26 @@
+{
+  "id": "e-wafvp",
+  "title": "冬キャンプ 2026-27 — 薪ストーブ泊まで",
+  "goal": "薪ストーブで一泊できる装備と練習が揃っている",
+  "active": false,
+  "labels": [
+    "gear"
+  ],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "meta": {
+    "origin": "夏の反省",
+    "season": "2026-27"
+  },
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:34Z",
+  "closed": null,
+  "body": "bodies/e-wafvp.md",
+  "deps": [
+    "e-dmk08",
+    "e-s6fxm"
+  ],
+  "standing": false,
+  "pinned": false
+}

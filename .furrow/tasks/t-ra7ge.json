@@ -1,0 +1,23 @@
+{
+  "id": "t-ra7ge",
+  "title": "出発前夜の段取り — 積み込み順と朝の動線を分単位で書き出す",
+  "status": "ready",
+  "priority": 560,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "bbq"
+  ],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:32Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-ra7ge.md",
+  "epic": "e-dmk08"
+}

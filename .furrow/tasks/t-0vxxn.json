@@ -1,0 +1,24 @@
+{
+  "id": "t-0vxxn",
+  "title": "子どもの自由研究連動 — 火起こしと星の観察記録の段取りを作る",
+  "status": "backlog",
+  "priority": 620,
+  "value": 5,
+  "effort": 4,
+  "labels": [],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [
+    "t-btgw8",
+    "t-c8c8h"
+  ],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:33Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-0vxxn.md",
+  "epic": "e-dmk08"
+}

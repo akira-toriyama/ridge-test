@@ -1,0 +1,36 @@
+{
+  "id": "t-sddez",
+  "title": "サイト設営図 — タープ連結と BBQ の風向きを区画図に描き込む",
+  "status": "backlog",
+  "priority": 680,
+  "value": 3,
+  "effort": 2,
+  "labels": [
+    "bbq"
+  ],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "区画の寸法をキャンプ場に確認（デッキの高さ含む）",
+      "done": false
+    },
+    {
+      "text": "タープ連結の張り方を庭で1回リハーサル",
+      "done": false
+    },
+    {
+      "text": "焚き火位置と薪置き場を図に描き込む",
+      "done": false
+    }
+  ],
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:32Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-sddez.md",
+  "epic": "e-dmk08"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "t-a5s9s",
+  "title": "行程表 v2 — 阿蘇→高千穂を買い出しと温泉の寄り道込みで引き直す（雨天代替つき）",
+  "status": "backlog",
+  "priority": 580,
+  "value": 3,
+  "effort": 2,
+  "labels": [],
+  "repos": [
+    "tomo/kyushu-trip"
+  ],
+  "deps": [
+    "t-btgw8",
+    "t-vm0gf"
+  ],
+  "refs": [],
+  "checklist": [],
+  "created": "2026-08-25T08:57:32Z",
+  "updated": "2026-08-25T08:57:33Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-a5s9s.md",
+  "epic": "e-dmk08",
+  "due": "2026-07-31T14:59:59Z"
+}
