@@ -30,13 +30,20 @@ board).
 git reset --hard && git clean -fd .furrow
 ```
 
-If `furrow sync` pushed mutations, restore the seeded baseline:
+If `furrow sync` pushed mutations, restore the seeded store *from* the
+baseline rather than resetting the branch *onto* it:
 
 ```sh
-git reset --hard baseline && git push --force origin main
+git checkout baseline -- .furrow seed && git commit -m ':wrench:= restore the seeded store'
 ```
 
-The `baseline` tag marks the freshly seeded store.
+The `baseline` tag marks the freshly seeded store, and it predates this
+repo's fleet files. `git reset --hard baseline && git push --force origin
+main` therefore also deletes `glyph.toml` — the one fleet file fleet-sync
+does not redistribute (glyph-pin-rewrite only ever opens a PR for it, and
+only for repos that already carry a pin). Without it the commit-lint and
+version-preview gates here answer usage, exit 2, on every push. Use the
+force-reset only after moving the `baseline` tag forward.
 
 ## Reseed
 
