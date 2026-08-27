@@ -1,0 +1,35 @@
+# Canonical standard file managed by fleet-sync (.github/workflows/fleet-sync.yml).
+# Do NOT edit per-repo copies — edit THIS file; fleet-sync propagates it to every
+# owned, non-fork, non-archived repo. Synced to: .github/workflows/commit-lint.yml
+#
+# Lint engine: glyph (sigil-driven since v3.0.0 — the repo's own glyph.toml is
+# the grammar and the sigil is the version signal; the gitmoji prefix is for
+# the reader). The pin is a CONCRETE glyph release tag — the workflow and the
+# binary it installs ship lockstep from that one tag, so never a moving ref.
+# Bump the pin here (one fleet-sync PR) per adopted glyph release.
+name: commit-lint
+
+on:
+  pull_request:
+    # `edited` is not in the default types, and without it a retitle never
+    # re-fires the squash-title lint — the title IS the landed subject.
+    types: [opened, synchronize, reopened, edited]
+  # The push arm: the same merge-candidate rules over a direct push to the
+  # default branch, annotate-only by design (main's history is immutable, so a
+  # red nobody can fix is noise). The reusable self-guards the edges (non-default
+  # branches, all-zeroes before, force-push refuse loudly).
+  push:
+    branches: [main]
+
+# A reusable can only downgrade the caller's token, never raise it. From glyph
+# v2.0.0 the lint reads the pull request's TITLE — the subject a squash merge
+# lands — over the API, so pull-requests:read has to be granted HERE. Measured
+# on .github#186: with contents:read alone the run does not even start
+# (startup_failure), because the reusable declares more than this block grants.
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  lint:
+    uses: akira-toriyama/glyph/.github/workflows/lint.yml@v3.0.0

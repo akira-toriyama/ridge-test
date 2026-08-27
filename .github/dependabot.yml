@@ -1,0 +1,61 @@
+# Canonical BASE for each repo's dependabot.yml, managed by fleet-sync
+# (.github/workflows/fleet-sync.yml). Do NOT edit per-repo copies — fleet-sync
+# ASSEMBLES the distributed file per repo: this base (github-actions only, which
+# every repo has) plus one block from fleet/dependabot.d/ per package ecosystem
+# whose ROOT manifest exists on the target (go.mod → gomod, Package.swift →
+# swift, package.json → npm). An ecosystem configured without its manifest is
+# NOT a no-op — Dependabot records a FAILING run every week (t-s3fp) — and a
+# base-only overwrite ERASES a repo's real ecosystems (t-vhr9: chord's swift and
+# study-engine's npm update entries were wiped, killing their bump PRs).
+# Synced to: .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    # Wait 7 days after a release before proposing it — freshly published
+    # versions are where supply-chain compromises surface (xz, tj-actions).
+    cooldown:
+      default-days: 7
+    # Batch every action bump into ONE weekly PR (not one PR per action).
+    groups:
+      actions:
+        patterns: ["*"]
+    # House pins are moved by house automation, never by Dependabot: @v2 is a
+    # MOVING tag the rollout runbook advances, and the glyph install pin is
+    # glyph-pin-rewrite's. A concrete tag here freezes the repo off the rollout
+    # train — or resolves to a tag that predates the workflow it calls
+    # (swift-toml-edit#31, run 30414639253). The wildcard crosses `/`:
+    # dependabot-core compiles `*` to `.*`, so the full reusable-workflow
+    # dependency name (akira-toriyama/.github/.github/workflows/x.yml) matches.
+    ignore:
+      - dependency-name: "akira-toriyama/*"
+    # Bot PRs ride glyph's one sanctioned grammar (t-271n) — the legacy
+    # `<code> type(scope):` token retired with its producers. The TRAILING
+    # SPACE is load-bearing: dependabot appends ": " only when the prefix
+    # ends in [A-Za-z0-9)\]] (pr_name_prefixer.rb), so ")" would yield
+    # ":arrow_up:(deps): bump ..." — the legacy separator again. Measured
+    # live on glyph-test (#39 recreate): the space suppresses the colon and
+    # the full message lints rc=0. Bots stay lint-exempt; what this buys is
+    # a one-grammar HISTORY.
+    commit-message:
+      prefix: ":arrow_up:(deps) "
+
+  # Go module updates for the Go tools (pare, furrow, glyph, …): dependency +
+  # security updates, batched into one weekly PR. Appended by fleet-sync only
+  # where a root go.mod exists (fleet/dependabot.d/gomod.yml — see the base
+  # fleet/dependabot.yml header for the assembly scheme).
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: weekly
+    # Same 7-day supply-chain cooldown as github-actions above.
+    cooldown:
+      default-days: 7
+    groups:
+      gomod:
+        patterns: ["*"]
+    commit-message:
+      # Trailing space is load-bearing — see the base fleet/dependabot.yml.
+      prefix: ":arrow_up:(deps) "
