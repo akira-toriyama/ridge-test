@@ -41,21 +41,3 @@ updates:
     # a one-grammar HISTORY.
     commit-message:
       prefix: ":arrow_up:(deps) "
-
-  # Go module updates for the Go tools (pare, furrow, glyph, …): dependency +
-  # security updates, batched into one weekly PR. Appended by fleet-sync only
-  # where a root go.mod exists (fleet/dependabot.d/gomod.yml — see the base
-  # fleet/dependabot.yml header for the assembly scheme).
-  - package-ecosystem: gomod
-    directory: /
-    schedule:
-      interval: weekly
-    # Same 7-day supply-chain cooldown as github-actions above.
-    cooldown:
-      default-days: 7
-    groups:
-      gomod:
-        patterns: ["*"]
-    commit-message:
-      # Trailing space is load-bearing — see the base fleet/dependabot.yml.
-      prefix: ":arrow_up:(deps) "
