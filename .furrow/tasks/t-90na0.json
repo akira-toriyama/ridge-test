@@ -1,0 +1,42 @@
+{
+  "id": "t-90na0",
+  "title": "16:40 にデザートを仕上げて冷蔵保管に入れる",
+  "status": "backlog",
+  "priority": 770,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "cooking",
+    "d0-ops",
+    "dessert"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-5gyzv",
+    "t-s8hbs"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "盛り付け皿を先に冷やしておく",
+      "done": false
+    },
+    {
+      "text": "冷蔵庫の占有スペースをドリンクと奪い合わない配置にする",
+      "done": false
+    },
+    {
+      "text": "アレルギー対応が要る場合は別トレーで分離",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-90na0.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T07:40:00Z"
+}

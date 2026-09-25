@@ -1,0 +1,40 @@
+{
+  "id": "t-7wpvb",
+  "title": "未回収の出欠と食事制限申告を毎週日曜に督促する",
+  "status": "ready",
+  "priority": 160,
+  "value": 3,
+  "effort": 1,
+  "labels": [
+    "guest-comms",
+    "recurring"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "未回収者を出欠表と申告表から洗い出す",
+      "done": false
+    },
+    {
+      "text": "該当者だけに個別 DM を送る",
+      "done": false
+    },
+    {
+      "text": "回収状況を両表に反映する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-7wpvb.md",
+  "epic": "e-7y5ed",
+  "due": "2026-09-20T11:00:00Z",
+  "repeat": "FREQ=WEEKLY;UNTIL=20261011T235959Z",
+  "repeat_anchor": "2026-09-20T11:00:00Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "t-y96qv",
+  "title": "ソース 3 種を仕込んで冷蔵保存する",
+  "status": "backlog",
+  "priority": 360,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "batch-cook",
+    "refrigerated",
+    "sauce"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-mscwv"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "塩は当日調整ぶんを残して薄めに止める",
+      "done": false
+    },
+    {
+      "text": "容器に品名と仕込み日を書く",
+      "done": false
+    },
+    {
+      "text": "乳化系は分離していないか翌日確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-y96qv.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-18T14:59:59Z"
+}

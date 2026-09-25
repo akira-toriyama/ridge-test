@@ -1,0 +1,40 @@
+{
+  "id": "t-4e7kx",
+  "title": "当日写真を集約して共有アルバムのリンクを全員に配る",
+  "status": "backlog",
+  "priority": 640,
+  "value": 3,
+  "effort": 2,
+  "labels": [
+    "guests",
+    "photos"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-n5rkw"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "当日中にアルバムを作ってリンクを配る",
+      "done": false
+    },
+    {
+      "text": "SNS 転載 NG の申告を記録する",
+      "done": false
+    },
+    {
+      "text": "料理5品の完成写真が揃っているか確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-4e7kx.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-25T14:59:59Z"
+}

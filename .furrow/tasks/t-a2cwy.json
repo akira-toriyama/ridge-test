@@ -1,0 +1,35 @@
+{
+  "id": "t-a2cwy",
+  "title": "5品それぞれにワインを1本ずつ合わせるペアリングを組む",
+  "status": "icebox",
+  "priority": 110,
+  "value": 2,
+  "effort": 3,
+  "labels": [
+    "drinks",
+    "dropped"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-bc820"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "5本の合計金額を概算する",
+      "done": false
+    },
+    {
+      "text": "グラス数が足りるか [[t-4561x]] の食器数で確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-a2cwy.md",
+  "epic": "e-fmzj4"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "t-s9g35",
+  "title": "会場費の確定額で食材・飲み物・消耗品の予算配分を引き直す",
+  "status": "backlog",
+  "priority": 200,
+  "value": 4,
+  "effort": 1,
+  "labels": [
+    "blocked-by-venue",
+    "budget"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-0mkpw",
+    "t-36b3b"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "会場費の確定額（延長・清掃費込み）を書く",
+      "done": false
+    },
+    {
+      "text": "残額を食材・飲み物・消耗品に再配分する",
+      "done": false
+    },
+    {
+      "text": "食材枠で [[t-p1j70]] の献立が作れるか概算で当てる",
+      "done": false
+    },
+    {
+      "text": "足りない場合に削る候補を1つ決めておく",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-s9g35.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-17T14:59:59Z"
+}

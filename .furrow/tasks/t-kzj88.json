@@ -1,0 +1,48 @@
+{
+  "id": "t-kzj88",
+  "title": "15人前の1人前量を決めて食材ごとの総重量を算出する",
+  "status": "backlog",
+  "priority": 140,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "procurement",
+    "scale"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-p1j70"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "1人前のグラム数を5品それぞれに決める",
+      "done": false
+    },
+    {
+      "text": "歩留まりの割増率を食材種別ごとに決める",
+      "done": false
+    },
+    {
+      "text": "肉と魚は骨・皮込みの発注重量に換算する",
+      "done": false
+    },
+    {
+      "text": "代替皿の分を別行で足す",
+      "done": false
+    },
+    {
+      "text": "総量が冷蔵庫容量（[[t-4561x]]）に入るか突き合わせる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-kzj88.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-24T14:59:59Z"
+}

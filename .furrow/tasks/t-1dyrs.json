@@ -1,0 +1,46 @@
+{
+  "id": "t-1dyrs",
+  "title": "支出済み額を集計して残予算を body に更新する",
+  "status": "backlog",
+  "priority": 240,
+  "value": 3,
+  "effort": 1,
+  "labels": [
+    "budget",
+    "recurring"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-36b3b"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "今週のレシートを1行ずつ転記する",
+      "done": false
+    },
+    {
+      "text": "系統別（食材/飲み物/消耗品/会場）の合計を更新する",
+      "done": false
+    },
+    {
+      "text": "残額を計算する",
+      "done": false
+    },
+    {
+      "text": "枠を超えた系統があれば [[t-vvdpt]] に持ち込む",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-1dyrs.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-17T14:59:59Z",
+  "repeat": "FREQ=WEEKLY;UNTIL=20261121T235959Z;BYDAY=SA",
+  "repeat_anchor": "2026-10-17T14:59:59Z"
+}

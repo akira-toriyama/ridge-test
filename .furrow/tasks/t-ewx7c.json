@@ -1,0 +1,42 @@
+{
+  "id": "t-ewx7c",
+  "title": "ゴミを全量持ち帰り翌日に分別して廃棄する",
+  "status": "backlog",
+  "priority": 580,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "cand-a",
+    "teardown",
+    "waste"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-5dytn",
+    "t-yft1m"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "45L袋6枚と瓶缶用2枚を調達リストに入れる",
+      "done": false
+    },
+    {
+      "text": "運搬手段を決めて当日の積載場所を確保する",
+      "done": false
+    },
+    {
+      "text": "自宅の収集曜日を確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-ewx7c.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-22T14:59:59Z"
+}

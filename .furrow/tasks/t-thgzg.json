@@ -1,0 +1,40 @@
+{
+  "id": "t-thgzg",
+  "title": "総額 80,000 円の内訳を決めて会場費上限 30,000 円を比較表に固定する",
+  "status": "done",
+  "priority": 120,
+  "value": 4,
+  "effort": 1,
+  "labels": [
+    "budget",
+    "planning"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [],
+  "refs": [
+    "file:notes/budget-80k.md:1"
+  ],
+  "checklist": [
+    {
+      "text": "会場/食材/飲み物/消耗品の 4 分類に配分する",
+      "done": true
+    },
+    {
+      "text": "予備費を切り出す",
+      "done": true
+    },
+    {
+      "text": "比較表のヘッダに会場費上限を明記する",
+      "done": true
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": "2026-09-25T06:31:47Z",
+  "reviewed": null,
+  "body": "bodies/t-thgzg.md",
+  "epic": "e-7y5ed",
+  "due": "2026-09-12T14:59:59Z"
+}

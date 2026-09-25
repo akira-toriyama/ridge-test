@@ -1,0 +1,47 @@
+{
+  "id": "t-0mkpw",
+  "title": "決定会場を本予約して予約確認書を受領する",
+  "status": "backlog",
+  "priority": 460,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "booking",
+    "cand-a",
+    "cand-b",
+    "cand-c",
+    "contract"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-cqhks"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "予約フォームを送信する",
+      "done": false
+    },
+    {
+      "text": "予約番号と利用時間を body に転記する",
+      "done": false
+    },
+    {
+      "text": "キャンセル無料期限を body 先頭に書く",
+      "done": false
+    },
+    {
+      "text": "落選 2 件(A/B/C のうち選ばれなかった 2 件)に断りの一報を送る",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-0mkpw.md",
+  "epic": "e-7y5ed",
+  "due": "2026-10-04T08:00:00Z"
+}

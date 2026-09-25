@@ -1,0 +1,50 @@
+{
+  "id": "t-mtw1d",
+  "title": "18:45 までに前菜・スープ・魚の3皿を出し切る",
+  "status": "backlog",
+  "priority": 810,
+  "value": 5,
+  "effort": 4,
+  "labels": [
+    "cooking",
+    "service",
+    "timeline"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-4561x",
+    "t-5ez24"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "17:35 前菜",
+      "done": false
+    },
+    {
+      "text": "18:05 スープ",
+      "done": false
+    },
+    {
+      "text": "18:30 魚",
+      "done": false
+    },
+    {
+      "text": "皿は都度温める／冷やす",
+      "done": false
+    },
+    {
+      "text": "下げ物を溜めず洗い物担当へ随時回す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-mtw1d.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T09:45:00Z"
+}

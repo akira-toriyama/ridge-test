@@ -1,0 +1,48 @@
+{
+  "id": "t-1azns",
+  "title": "アレルギー・苦手・ベジ申告の設問文を確定して申告フォームに渡す",
+  "status": "ready",
+  "priority": 120,
+  "value": 5,
+  "effort": 1,
+  "labels": [
+    "allergy",
+    "handoff"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [],
+  "refs": [
+    "https://www.caa.go.jp/policies/policy/food_labeling/food_sanitation/allergy/"
+  ],
+  "checklist": [
+    {
+      "text": "特定8品目を選択式で列挙する",
+      "done": false
+    },
+    {
+      "text": "「苦手」と「食べられない」を別設問に分ける",
+      "done": false
+    },
+    {
+      "text": "ベジタリアン/ヴィーガンの別と出汁の可否を聞く",
+      "done": false
+    },
+    {
+      "text": "回答期限を10/10と明記する",
+      "done": false
+    },
+    {
+      "text": "未回答者の扱い（甲殻類アレルギーあり前提で、甲殻類を使わない皿を出す）を文面に入れる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-1azns.md",
+  "epic": "e-fmzj4",
+  "due": "2026-09-24T14:59:59Z"
+}

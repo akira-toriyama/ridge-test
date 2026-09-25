@@ -1,0 +1,25 @@
+{
+  "id": "e-fmzj4",
+  "title": "献立と調達計画を確定する",
+  "goal": "5 品の献立と数量・発注先・予算が確定し、買い物リストが出ている",
+  "active": false,
+  "labels": [
+    "event",
+    "menu"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "meta": {
+    "slug": "menu"
+  },
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "body": "bodies/e-fmzj4.md",
+  "deps": [
+    "e-7y5ed"
+  ],
+  "standing": false,
+  "pinned": false
+}

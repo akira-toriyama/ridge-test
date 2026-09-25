@@ -1,0 +1,25 @@
+{
+  "id": "e-ba1b2",
+  "title": "撤収・精算・振り返りを終える",
+  "goal": "22:00 撤収完了、精算と返金確認が済み、振り返りが board に残っている",
+  "active": false,
+  "labels": [
+    "event",
+    "wrap"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "meta": {
+    "slug": "wrap"
+  },
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "body": "bodies/e-ba1b2.md",
+  "deps": [
+    "e-v1f2x"
+  ],
+  "standing": false,
+  "pinned": false
+}

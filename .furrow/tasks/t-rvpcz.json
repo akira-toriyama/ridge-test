@@ -1,0 +1,43 @@
+{
+  "id": "t-rvpcz",
+  "title": "品目別に真空・冷凍・冷蔵を決めた保存表を作る",
+  "status": "backlog",
+  "priority": 280,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "food-safety",
+    "planning",
+    "storage"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-2hmak"
+  ],
+  "refs": [
+    "https://www.mhlw.go.jp/topics/syokuchu/kateide.html"
+  ],
+  "checklist": [
+    {
+      "text": "冷凍庫を空けて内寸と空き容量を実測する",
+      "done": false
+    },
+    {
+      "text": "解凍日を工程表に書き戻す",
+      "done": false
+    },
+    {
+      "text": "氷水で急冷が要る品目に印を付ける",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-rvpcz.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-07T14:59:59Z"
+}

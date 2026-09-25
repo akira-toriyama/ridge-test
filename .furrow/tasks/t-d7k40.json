@@ -1,0 +1,44 @@
+{
+  "id": "t-d7k40",
+  "title": "各皿の提供直前カットと 20:45 の集合写真を撮る",
+  "status": "backlog",
+  "priority": 840,
+  "value": 3,
+  "effort": 2,
+  "labels": [
+    "photo",
+    "record"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-xfxyf"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "5皿それぞれ提供直前に1枚",
+      "done": false
+    },
+    {
+      "text": "厨房の引きの絵を1枚",
+      "done": false
+    },
+    {
+      "text": "20:45 に15名の集合写真",
+      "done": false
+    },
+    {
+      "text": "スマホの残量とストレージを事前確認",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-d7k40.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T11:45:00Z"
+}

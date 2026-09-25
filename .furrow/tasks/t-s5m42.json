@@ -1,0 +1,44 @@
+{
+  "id": "t-s5m42",
+  "title": "会場費を入金期限までに振り込んで振込控えを保存する",
+  "status": "backlog",
+  "priority": 470,
+  "value": 5,
+  "effort": 1,
+  "labels": [
+    "budget",
+    "payment"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-0mkpw"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "予約確認書の入金期限を確認する",
+      "done": false
+    },
+    {
+      "text": "期限の 3 日前に振り込む",
+      "done": false
+    },
+    {
+      "text": "振込控えを保存してパスを body に書く",
+      "done": false
+    },
+    {
+      "text": "支払額と残予算を body に追記する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-s5m42.md",
+  "epic": "e-7y5ed",
+  "due": "2026-10-12T06:00:00Z"
+}

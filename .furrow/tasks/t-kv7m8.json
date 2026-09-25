@@ -1,0 +1,43 @@
+{
+  "id": "t-kv7m8",
+  "title": "肉の火入れリハーサルを本番と同じ手順で行い所要時間を実測する",
+  "status": "backlog",
+  "priority": 700,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "cooking",
+    "rehearsal",
+    "timeline"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-4561x"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "予熱開始から提供までの分数をストップウォッチで計測",
+      "done": false
+    },
+    {
+      "text": "芯温と休ませ時間をメモ",
+      "done": false
+    },
+    {
+      "text": "1 回目の実測値を [[t-7gkhk]] の逆算表に反映",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-kv7m8.md",
+  "epic": "e-v1f2x",
+  "due": "2026-10-31T09:00:00Z",
+  "repeat": "FREQ=WEEKLY;UNTIL=20261114T235959Z;BYDAY=SA",
+  "repeat_anchor": "2026-10-31T09:00:00Z"
+}

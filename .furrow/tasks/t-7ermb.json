@@ -1,0 +1,42 @@
+{
+  "id": "t-7ermb",
+  "title": "デザートを型入れして冷やし固める",
+  "status": "backlog",
+  "priority": 410,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "chilling",
+    "dessert",
+    "lead-time"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-05fpn",
+    "t-xd1wj"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "型を人数分＋2 用意する",
+      "done": false
+    },
+    {
+      "text": "冷蔵庫の棚を 1 段空ける",
+      "done": false
+    },
+    {
+      "text": "型入れ時刻を容器に書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-7ermb.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-20T09:00:00Z"
+}

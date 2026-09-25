@@ -1,0 +1,42 @@
+{
+  "id": "t-yft1m",
+  "title": "持ち込み備品を全点回収しホールを原状配置に戻す",
+  "status": "backlog",
+  "priority": 550,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "d0-night",
+    "equipment",
+    "teardown"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-mkkg2",
+    "t-n5rkw"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "入室直後にホール全景の写真を撮る",
+      "done": false
+    },
+    {
+      "text": "搬入リストをそのまま回収リストに転用する",
+      "done": false
+    },
+    {
+      "text": "忘れ物を1箇所に集めて写真を撮る",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-yft1m.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-21T12:45:00Z"
+}

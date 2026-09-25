@@ -1,0 +1,47 @@
+{
+  "id": "t-hfssc",
+  "title": "候補 3 件に空き・料金・設備の問い合わせメールを送信する",
+  "status": "done",
+  "priority": 130,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "external-wait",
+    "venue-selection"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-thgzg",
+    "t-vxdkr"
+  ],
+  "refs": [
+    "file:notes/venue-inquiry-template.md:1"
+  ],
+  "checklist": [
+    {
+      "text": "質問テンプレを 1 通にまとめる",
+      "done": true
+    },
+    {
+      "text": "A/B/C の 3 件に送信する",
+      "done": true
+    },
+    {
+      "text": "返信期限(9/22)を本文に明記する",
+      "done": true
+    },
+    {
+      "text": "送信済みを比較表に記録する",
+      "done": true
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": "2026-09-25T06:31:47Z",
+  "reviewed": null,
+  "body": "bodies/t-hfssc.md",
+  "epic": "e-7y5ed",
+  "due": "2026-09-14T14:59:59Z"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "t-4yv7a",
+  "title": "当日タイムテーブルを分刻みで作り手伝い 2 名に共有する",
+  "status": "backlog",
+  "priority": 370,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "day-of",
+    "handoff",
+    "timetable"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-2hmak",
+    "t-wftv2"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "洗い物の枠を 2 回入れる",
+      "done": false
+    },
+    {
+      "text": "写真撮影の枠を 1 回取る",
+      "done": false
+    },
+    {
+      "text": "共有後に出た質問を body に書き戻す",
+      "done": false
+    },
+    {
+      "text": "21:00 解散・22:00 完全撤収から逆算した最終行を入れる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-4yv7a.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-18T14:59:59Z"
+}

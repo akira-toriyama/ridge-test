@@ -1,0 +1,48 @@
+{
+  "id": "t-r9bq7",
+  "title": "原状回復チェックを写真付きで一巡して退出可にする",
+  "status": "backlog",
+  "priority": 560,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "deposit",
+    "teardown",
+    "venue-return"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-5dytn",
+    "t-6gzmh",
+    "t-tdxf2",
+    "t-yft1m"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "コンロ・グリルの油汚れを落とす",
+      "done": false
+    },
+    {
+      "text": "排水口とゴミ受けを空にして洗う",
+      "done": false
+    },
+    {
+      "text": "オーブン庫内を拭く",
+      "done": false
+    },
+    {
+      "text": "項目ごとに退出時写真を撮る",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-r9bq7.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-21T12:55:00Z"
+}

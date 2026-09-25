@@ -1,0 +1,42 @@
+{
+  "id": "t-5dytn",
+  "title": "残った食材を配布・持ち帰り・廃棄に仕分けて空にする",
+  "status": "backlog",
+  "priority": 530,
+  "value": 3,
+  "effort": 2,
+  "labels": [
+    "d0-night",
+    "leftovers",
+    "teardown"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-mkkg2",
+    "t-n5rkw"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "配布用の使い捨て容器を人数分用意する",
+      "done": false
+    },
+    {
+      "text": "生もの(魚/肉)は配布しないと決めて周知する",
+      "done": false
+    },
+    {
+      "text": "冷蔵庫・冷凍庫を扉を開けて目視で空確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-5dytn.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-21T12:30:00Z"
+}

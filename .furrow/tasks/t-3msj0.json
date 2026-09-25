@@ -1,0 +1,40 @@
+{
+  "id": "t-3msj0",
+  "title": "手伝い2名から当日の入り時刻と担当の確定返信をもらう",
+  "status": "waiting",
+  "priority": 130,
+  "value": 4,
+  "effort": 1,
+  "labels": [
+    "coordination",
+    "staff"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-cqhks"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "集合 14:45 で可否を確認",
+      "done": false
+    },
+    {
+      "text": "21:00 解散後の撤収（22:00 まで）に残れるか確認",
+      "done": false
+    },
+    {
+      "text": "当日連絡先の携帯番号を2名分控える",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-3msj0.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-14T12:00:00Z"
+}

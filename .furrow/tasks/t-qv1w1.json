@@ -1,0 +1,49 @@
+{
+  "id": "t-qv1w1",
+  "title": "前日仕込みと当日調理に全工程を仕分けして仕込み一覧を確定する",
+  "status": "backlog",
+  "priority": 170,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "handoff",
+    "recipe"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-4r0en",
+    "t-vrt4b"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "全工程を「前日可 / 当日必須」に二分する",
+      "done": false
+    },
+    {
+      "text": "前日仕込み品の保存形態と容器サイズを書く",
+      "done": false
+    },
+    {
+      "text": "当日の戻し方（再加熱・常温戻し）を工程ごとに足す",
+      "done": false
+    },
+    {
+      "text": "前日仕込みの合計所要時間を出す",
+      "done": false
+    },
+    {
+      "text": "当日側の所要が17:00入場から逆算して収まるか確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-qv1w1.md",
+  "epic": "e-fmzj4",
+  "due": "2026-11-05T14:59:59Z"
+}

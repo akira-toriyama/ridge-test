@@ -1,0 +1,39 @@
+{
+  "id": "t-kj5mw",
+  "title": "敷金の返金入金を確認して会場との清算を閉じる",
+  "status": "backlog",
+  "priority": 590,
+  "value": 4,
+  "effort": 1,
+  "labels": [
+    "deposit",
+    "money",
+    "venue-return"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-0mkpw",
+    "t-jkmzr",
+    "t-r9bq7"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "契約書の返金期限と金額を控える",
+      "done": false
+    },
+    {
+      "text": "入金を口座明細で確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-kj5mw.md",
+  "epic": "e-ba1b2",
+  "due": "2026-12-05T14:59:59Z"
+}

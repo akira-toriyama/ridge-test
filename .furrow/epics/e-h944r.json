@@ -1,0 +1,23 @@
+{
+  "id": "e-h944r",
+  "title": "開催を決めて日程と参加者を固める",
+  "goal": "開催日 2026-11-21 と参加者 12 名が固まっている",
+  "active": false,
+  "labels": [
+    "event",
+    "kickoff"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "meta": {
+    "slug": "kickoff"
+  },
+  "created": "2026-09-25T06:31:48Z",
+  "updated": "2026-09-25T06:31:48Z",
+  "closed": "2026-09-25T06:31:48Z",
+  "body": "bodies/e-h944r.md",
+  "deps": [],
+  "standing": false,
+  "pinned": false
+}

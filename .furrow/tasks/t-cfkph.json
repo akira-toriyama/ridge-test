@@ -1,0 +1,36 @@
+{
+  "id": "t-cfkph",
+  "title": "ゲスト12名と手伝い2名に礼状メッセージを送る",
+  "status": "backlog",
+  "priority": 650,
+  "value": 3,
+  "effort": 1,
+  "labels": [
+    "guests",
+    "thanks"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-n5rkw"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "手伝い2名には具体的な作業名を挙げて礼を書く",
+      "done": false
+    },
+    {
+      "text": "精算の案内は礼状とは分けて送る",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-cfkph.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-22T03:00:00Z"
+}

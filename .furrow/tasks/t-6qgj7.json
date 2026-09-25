@@ -1,0 +1,42 @@
+{
+  "id": "t-6qgj7",
+  "title": "コース5品それぞれに候補を3案出して骨格表を1枚にまとめる",
+  "status": "ready",
+  "priority": 100,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "draft",
+    "menu-design"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "前菜/スープ/魚/肉/デザートの5枠を立てる",
+      "done": false
+    },
+    {
+      "text": "各枠に3案（主材料と調理法）を書く",
+      "done": false
+    },
+    {
+      "text": "甲殻類を主材料にした案に印を付ける",
+      "done": false
+    },
+    {
+      "text": "オーブン必須・コンロ必須の別を各案に注記する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-6qgj7.md",
+  "epic": "e-fmzj4",
+  "due": "2026-09-30T14:59:59Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "t-36b3b",
+  "title": "食材・飲み物・消耗品の予算枠を上限額付きで3分割する",
+  "status": "ready",
+  "priority": 110,
+  "value": 4,
+  "effort": 1,
+  "labels": [
+    "budget"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-thgzg"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "4枠（会場費/食材/飲み物/消耗品）の上限額を body の表に書く",
+      "done": false
+    },
+    {
+      "text": "1人あたり食材費（食材枠 ÷ 15）を計算して添える",
+      "done": false
+    },
+    {
+      "text": "予備費 8,000 円を別枠として表に書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-36b3b.md",
+  "epic": "e-fmzj4",
+  "due": "2026-09-27T14:59:59Z"
+}

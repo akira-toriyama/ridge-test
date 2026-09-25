@@ -1,0 +1,53 @@
+{
+  "id": "t-4r0en",
+  "title": "5品のレシピを工程と時間つきで清書して1ファイルにまとめる",
+  "status": "backlog",
+  "priority": 150,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "recipe"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-4561x",
+    "t-kzj88",
+    "t-p1j70"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "1品ごとに工程を番号付きで書く",
+      "done": false
+    },
+    {
+      "text": "各工程に所要分数と使う火口/オーブンを書く",
+      "done": false
+    },
+    {
+      "text": "前日に出せる工程に印を付ける",
+      "done": false
+    },
+    {
+      "text": "代替皿のレシピも同じ形式で足す",
+      "done": false
+    },
+    {
+      "text": "使う調理器具を洗い出して会場にあるか照合する",
+      "done": false
+    },
+    {
+      "text": "「適量・少々」を全部数値に直す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-4r0en.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-27T14:59:59Z"
+}

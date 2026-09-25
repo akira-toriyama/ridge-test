@@ -1,0 +1,49 @@
+{
+  "id": "t-82vrg",
+  "title": "消耗品リストを確定して通販でまとめて発注する",
+  "status": "backlog",
+  "priority": 220,
+  "value": 3,
+  "effort": 1,
+  "labels": [
+    "order",
+    "supplies"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-4561x",
+    "t-qv1w1"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "使い捨て手袋・ラップ・アルミホイル・キッチンペーパーの数量を決める",
+      "done": false
+    },
+    {
+      "text": "保存容器のサイズと個数を [[t-qv1w1]] の仕込み一覧から拾う",
+      "done": false
+    },
+    {
+      "text": "氷の量（飲み物用＋食材保冷用）を計算する",
+      "done": false
+    },
+    {
+      "text": "ゴミ袋を会場のゴミ規定に合わせた種類で選ぶ",
+      "done": false
+    },
+    {
+      "text": "食器が足りない会場なら使い捨て皿を足す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-82vrg.md",
+  "epic": "e-fmzj4",
+  "due": "2026-11-08T14:59:59Z"
+}

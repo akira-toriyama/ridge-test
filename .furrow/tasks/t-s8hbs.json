@@ -1,0 +1,50 @@
+{
+  "id": "t-s8hbs",
+  "title": "16:20 までに厨房を組み全機材の動作確認を終える",
+  "status": "backlog",
+  "priority": 730,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "d0-ops",
+    "kitchen",
+    "setup"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-ajzry",
+    "t-ns73f"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "オーブンを200℃まで上げて温度計で実測",
+      "done": false
+    },
+    {
+      "text": "コンロ全口の点火確認",
+      "done": false
+    },
+    {
+      "text": "盛り付け台と洗い場を分離して動線を決める",
+      "done": false
+    },
+    {
+      "text": "ゴミ袋を会場規定の分別で設置",
+      "done": false
+    },
+    {
+      "text": "消火器と救急箱の位置を3人で確認",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-s8hbs.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T07:20:00Z"
+}

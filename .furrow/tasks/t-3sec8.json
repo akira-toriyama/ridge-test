@@ -1,0 +1,52 @@
+{
+  "id": "t-3sec8",
+  "title": "候補 2 件を現地下見して搬入経路・エレベーター・台車可否を実測する",
+  "status": "ready",
+  "priority": 140,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "cand-a",
+    "cand-b",
+    "logistics",
+    "site-visit"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-vxdkr"
+  ],
+  "refs": [
+    "file:notes/site-visit-checklist.md:1"
+  ],
+  "checklist": [
+    {
+      "text": "搬入口から厨房までの経路を写真に撮る",
+      "done": false
+    },
+    {
+      "text": "エレベーターの内寸を測る",
+      "done": false
+    },
+    {
+      "text": "台車の使用可否を聞く",
+      "done": false
+    },
+    {
+      "text": "荷下ろしスペースと駐車可否を確認する",
+      "done": false
+    },
+    {
+      "text": "B の下見枠を 10/3 までにもらう",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-3sec8.md",
+  "epic": "e-7y5ed",
+  "due": "2026-10-03T09:00:00Z"
+}

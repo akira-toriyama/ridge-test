@@ -1,0 +1,49 @@
+{
+  "id": "t-vrt4b",
+  "title": "当日仕上げの火入れ料理を試作して逆算タイムラインを確定する",
+  "status": "backlog",
+  "priority": 160,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "recipe",
+    "test-cook"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-4r0en",
+    "t-kzj88"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "本番と同じ火加減・同じ厚みで1人前を焼く",
+      "done": false
+    },
+    {
+      "text": "焼き時間と休ませ時間を実測して記録する",
+      "done": false
+    },
+    {
+      "text": "盛り付け1皿あたりの秒数を計る",
+      "done": false
+    },
+    {
+      "text": "15人分を同時に回した場合の所要を計算する",
+      "done": false
+    },
+    {
+      "text": "実測値を [[t-4r0en]] のレシピに書き戻す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-vrt4b.md",
+  "epic": "e-fmzj4",
+  "due": "2026-11-03T14:59:59Z"
+}

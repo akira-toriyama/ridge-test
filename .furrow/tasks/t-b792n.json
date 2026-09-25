@@ -1,0 +1,44 @@
+{
+  "id": "t-b792n",
+  "title": "鍵の受け取り・返却方法と入退館手順を書面で確定する",
+  "status": "backlog",
+  "priority": 490,
+  "value": 4,
+  "effort": 1,
+  "labels": [
+    "key-handover",
+    "logistics"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-0mkpw"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "受取方法(キーボックス/手渡し/郵送)を確定する",
+      "done": false
+    },
+    {
+      "text": "受取可能時刻を確認する",
+      "done": false
+    },
+    {
+      "text": "返却方法と返却期限を確認する",
+      "done": false
+    },
+    {
+      "text": "鍵紛失時の連絡先を body に書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-b792n.md",
+  "epic": "e-7y5ed",
+  "due": "2026-10-22T14:59:59Z"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "t-p1j70",
+  "title": "5品のコースを1案に確定して品書きを書き上げる",
+  "status": "backlog",
+  "priority": 130,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "menu-design",
+    "milestone"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-15zv0",
+    "t-4561x"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "5品の最終名称を決める",
+      "done": false
+    },
+    {
+      "text": "当日仕上げが必須の火入れ料理を1品に指定する",
+      "done": false
+    },
+    {
+      "text": "提供順と目安提供時刻を17:30着席起点で書く",
+      "done": false
+    },
+    {
+      "text": "品書きに載せるアレルギー表記を決める",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-p1j70.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-22T14:59:59Z"
+}

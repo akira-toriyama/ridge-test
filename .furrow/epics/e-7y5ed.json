@@ -1,0 +1,26 @@
+{
+  "id": "e-7y5ed",
+  "title": "会場と日程を確定する",
+  "goal": "会場を本予約し、設備インベントリ・出欠・アレルギー申告が出そろっている",
+  "active": true,
+  "labels": [
+    "event",
+    "venue"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "meta": {
+    "event_date": "2026-11-21",
+    "slug": "venue"
+  },
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:49Z",
+  "closed": null,
+  "body": "bodies/e-7y5ed.md",
+  "deps": [
+    "e-h944r"
+  ],
+  "standing": false,
+  "pinned": false
+}

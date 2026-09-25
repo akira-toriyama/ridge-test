@@ -1,0 +1,39 @@
+{
+  "id": "t-dkprg",
+  "title": "未収の参加費を名指しでリマインドする",
+  "status": "backlog",
+  "priority": 630,
+  "value": 3,
+  "effort": 1,
+  "labels": [
+    "collection",
+    "money",
+    "recurring"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-76h8v"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "未収者の名前と金額を文面に入れる",
+      "done": false
+    },
+    {
+      "text": "送った日を名簿に記録する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-dkprg.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-29T11:00:00Z",
+  "repeat": "FREQ=WEEKLY;UNTIL=20261227T235959Z",
+  "repeat_anchor": "2026-11-29T11:00:00Z"
+}

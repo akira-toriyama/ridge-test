@@ -1,0 +1,37 @@
+{
+  "id": "t-q93p0",
+  "title": "参加費をゲスト12名から集金して未収ゼロにする",
+  "status": "backlog",
+  "priority": 620,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "collection",
+    "money",
+    "settlement"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-76h8v"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "送金先と期限を精算の1枚に併記する",
+      "done": false
+    },
+    {
+      "text": "現金受領分はその場で名簿に記録する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-q93p0.md",
+  "epic": "e-ba1b2",
+  "due": "2026-12-03T14:59:59Z"
+}

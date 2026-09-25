@@ -1,0 +1,43 @@
+{
+  "id": "t-77srk",
+  "title": "機材不動・食材忘れのリカバリ手順を A4 1枚にまとめて当日持参する",
+  "status": "ready",
+  "priority": 170,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "d0-ops",
+    "recovery",
+    "risk"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "会場管理者の緊急連絡先を記載",
+      "done": false
+    },
+    {
+      "text": "徒歩圏のスーパー・コンビニと閉店時刻を記載",
+      "done": false
+    },
+    {
+      "text": "オーブン不動時の代替（鍋＋コンロ）を1品ずつ決める",
+      "done": false
+    },
+    {
+      "text": "冷蔵庫が効かない場合のクーラーボックス運用を記載",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-77srk.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-19T12:00:00Z"
+}

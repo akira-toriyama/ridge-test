@@ -1,0 +1,45 @@
+{
+  "id": "t-k6aqd",
+  "title": "レシートを全件集計し予算80,000円との差額を確定する",
+  "status": "backlog",
+  "priority": 600,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "budget",
+    "money",
+    "receipts"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-n5rkw",
+    "t-thgzg",
+    "t-vvdpt"
+  ],
+  "refs": [
+    "file:notes/receipts.md"
+  ],
+  "checklist": [
+    {
+      "text": "レシート封筒の枚数と集計行数を突合する",
+      "done": false
+    },
+    {
+      "text": "電子決済分の明細を保存する",
+      "done": false
+    },
+    {
+      "text": "立替者ごとに立替額を分けて書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-k6aqd.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-24T12:00:00Z"
+}

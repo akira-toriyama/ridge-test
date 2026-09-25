@@ -1,0 +1,48 @@
+{
+  "id": "t-b2phe",
+  "title": "品目ごとに調達先を決めて店別の買い物リストに割り振る",
+  "status": "backlog",
+  "priority": 180,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "procurement",
+    "shopping-list"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-kzj88"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "肉・魚・野菜・乾物・酒・消耗品の6系統に分ける",
+      "done": false
+    },
+    {
+      "text": "系統ごとに店（業務スーパー/鮮魚店/精肉店/通販）を決める",
+      "done": false
+    },
+    {
+      "text": "店ごとの営業時間と最終受付を書く",
+      "done": false
+    },
+    {
+      "text": "要予約の品目に印を付ける",
+      "done": false
+    },
+    {
+      "text": "通販のリードタイムを確認して発注期限を書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-b2phe.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-28T14:59:59Z"
+}

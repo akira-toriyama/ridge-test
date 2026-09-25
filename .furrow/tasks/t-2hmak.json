@@ -1,0 +1,47 @@
+{
+  "id": "t-2hmak",
+  "title": "5 品の仕込み工程を日付に割り付けた工程表を作る",
+  "status": "backlog",
+  "priority": 270,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "backward-plan",
+    "planning",
+    "schedule"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-60da9",
+    "t-bwjf2",
+    "t-qv1w1"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "品目ごとの冷蔵保存上限日数を書く",
+      "done": false
+    },
+    {
+      "text": "当日仕上げの 1 品を工程表から外して別行にする",
+      "done": false
+    },
+    {
+      "text": "一次買い出し日と最終買い出し日を工程表に入れる",
+      "done": false
+    },
+    {
+      "text": "保冷剤を凍らせる枠を入れる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-2hmak.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-06T14:59:59Z"
+}

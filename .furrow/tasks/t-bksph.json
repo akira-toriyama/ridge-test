@@ -1,0 +1,38 @@
+{
+  "id": "t-bksph",
+  "title": "開催日 11/21 をゲスト 12 名に打診して一次の可否回答を集める",
+  "status": "done",
+  "priority": 110,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "guest-comms",
+    "scheduling"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "LINE グループに打診文を投稿する",
+      "done": true
+    },
+    {
+      "text": "未読 3 名に個別 DM を送る",
+      "done": true
+    },
+    {
+      "text": "回答を出欠表に転記する",
+      "done": true
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": "2026-09-25T06:31:47Z",
+  "reviewed": null,
+  "body": "bodies/t-bksph.md",
+  "epic": "e-7y5ed",
+  "due": "2026-09-10T14:59:59Z"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "t-1pxpa",
+  "title": "肉と魚を店に予約発注して受取日時を確定する",
+  "status": "backlog",
+  "priority": 190,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "deadline-hard",
+    "order",
+    "procurement"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-b2phe",
+    "t-kzj88",
+    "t-rcsa9"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "肉の部位・重量・カット指定を伝える",
+      "done": false
+    },
+    {
+      "text": "魚の種類・尾数・下処理（三枚おろし等）を伝える",
+      "done": false
+    },
+    {
+      "text": "受取日時と支払い方法を確定する",
+      "done": false
+    },
+    {
+      "text": "甲殻類と同じまな板での下処理を避けられるか確認する",
+      "done": false
+    },
+    {
+      "text": "発注内容の控えを body に転記する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-1pxpa.md",
+  "epic": "e-fmzj4",
+  "due": "2026-11-07T09:00:00Z"
+}

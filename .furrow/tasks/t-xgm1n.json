@@ -1,0 +1,42 @@
+{
+  "id": "t-xgm1n",
+  "title": "16:30 までに欠品分の買い出しを終えて厨房に戻る",
+  "status": "backlog",
+  "priority": 750,
+  "value": 3,
+  "effort": 2,
+  "labels": [
+    "d0-ops",
+    "recovery",
+    "shopping"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-77srk",
+    "t-ns73f"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "欠品ゼロならその場で done にする",
+      "done": false
+    },
+    {
+      "text": "レシートを保管（wrap の精算用）",
+      "done": false
+    },
+    {
+      "text": "現金と交通系IC の残高を確認",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-xgm1n.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T07:30:00Z"
+}

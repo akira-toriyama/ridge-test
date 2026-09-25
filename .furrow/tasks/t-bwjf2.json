@@ -1,0 +1,42 @@
+{
+  "id": "t-bwjf2",
+  "title": "甲殻類抜きの差し替え皿を 2 品決めて工程表に載せる",
+  "status": "backlog",
+  "priority": 260,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "allergy",
+    "menu-variant",
+    "planning"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-60da9",
+    "t-rcsa9"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "差し替え 1 人分のまな板・器具の分離方法を決める",
+      "done": false
+    },
+    {
+      "text": "XO 醤・魚醤など甲殻類を含む調味料の有無を確認する",
+      "done": false
+    },
+    {
+      "text": "差し替え分の追加食材を [[t-b2phe]] の調達リストに足す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-bwjf2.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-01T14:59:59Z"
+}

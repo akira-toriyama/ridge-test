@@ -1,0 +1,44 @@
+{
+  "id": "t-hmwh2",
+  "title": "次回への申し送りをA4一枚にまとめて保存する",
+  "status": "backlog",
+  "priority": 680,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "archive",
+    "handoff"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-8vr23",
+    "t-cmx1n",
+    "t-q93p0"
+  ],
+  "refs": [
+    "file:notes/handoff.md"
+  ],
+  "checklist": [
+    {
+      "text": "各項目に「そのまま/変える」を必ず付ける",
+      "done": false
+    },
+    {
+      "text": "金額は実績値で書く",
+      "done": false
+    },
+    {
+      "text": "1枚に収まらない分は捨てる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-hmwh2.md",
+  "epic": "e-ba1b2",
+  "due": "2026-12-05T14:59:59Z"
+}

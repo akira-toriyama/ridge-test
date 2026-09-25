@@ -1,0 +1,50 @@
+{
+  "id": "t-8r98d",
+  "title": "開催 1 週間前に会場へ最終確認を入れて当日の緊急連絡先を確保する",
+  "status": "backlog",
+  "priority": 510,
+  "value": 4,
+  "effort": 1,
+  "labels": [
+    "final-check",
+    "logistics"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-0mkpw",
+    "t-b792n",
+    "t-bc820"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "利用時間と人数 15 名を読み合わせる",
+      "done": false
+    },
+    {
+      "text": "搬入開始 15:00 の可否を再確認する",
+      "done": false
+    },
+    {
+      "text": "持ち込み酒の本数を申告する",
+      "done": false
+    },
+    {
+      "text": "当日の緊急連絡先(携帯番号)を控える",
+      "done": false
+    },
+    {
+      "text": "ゴミの扱いを再確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-8r98d.md",
+  "epic": "e-7y5ed",
+  "due": "2026-11-14T03:00:00Z"
+}

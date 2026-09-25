@@ -1,0 +1,51 @@
+{
+  "id": "t-4561x",
+  "title": "会場設備から同時に火にかけられる品数を出して調理制約表を作る",
+  "status": "backlog",
+  "priority": 100,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "blocked-by-venue",
+    "cand-a",
+    "cand-b",
+    "constraint"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-6qgj7",
+    "t-ajzry"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "コンロ口数・オーブン段数・冷蔵庫の棚数を数値で書き写す",
+      "done": false
+    },
+    {
+      "text": "同時に火にかけられる鍋数の上限を決める",
+      "done": false
+    },
+    {
+      "text": "オーブンを占有できる時間帯を17:00-21:00の枠で区切る",
+      "done": false
+    },
+    {
+      "text": "食器の数を数え、5品を回すのに洗い物が何回要るか出す",
+      "done": false
+    },
+    {
+      "text": "食洗機の有無と1サイクルの所要を書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-4561x.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-14T14:59:59Z"
+}

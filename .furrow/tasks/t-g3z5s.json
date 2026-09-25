@@ -1,0 +1,44 @@
+{
+  "id": "t-g3z5s",
+  "title": "工程表と冷凍庫在庫を週次で突き合わせる",
+  "status": "backlog",
+  "priority": 430,
+  "value": 3,
+  "effort": 1,
+  "labels": [
+    "recurring",
+    "review",
+    "schedule"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-2hmak",
+    "t-rvpcz"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "冷凍庫の中身と保存表を突き合わせる",
+      "done": false
+    },
+    {
+      "text": "遅れている工程を次週に再配置する",
+      "done": false
+    },
+    {
+      "text": "ずれた点を body に 1 行残す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-g3z5s.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-07T14:59:59Z",
+  "repeat": "FREQ=WEEKLY;UNTIL=20261120T235959Z;BYDAY=SA",
+  "repeat_anchor": "2026-11-07T14:59:59Z"
+}

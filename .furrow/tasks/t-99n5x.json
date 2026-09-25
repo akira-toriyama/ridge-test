@@ -1,0 +1,45 @@
+{
+  "id": "t-99n5x",
+  "title": "遅刻ゲストの扱いを決めてゲスト全員に通知する",
+  "status": "backlog",
+  "priority": 710,
+  "value": 3,
+  "effort": 1,
+  "labels": [
+    "guest",
+    "policy",
+    "service"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-7gkhk"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "17:30 定刻着席で待たないことを明記",
+      "done": false
+    },
+    {
+      "text": "前菜の取り置き可否を決める",
+      "done": false
+    },
+    {
+      "text": "当日の自分の携帯番号を案内文に入れる",
+      "done": false
+    },
+    {
+      "text": "会場の入口が分かりにくい場合の目印を添える",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-99n5x.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-16T12:00:00Z"
+}

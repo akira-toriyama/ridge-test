@@ -1,0 +1,50 @@
+{
+  "id": "t-0qec2",
+  "title": "16:00 までに12名分のテーブルセッティングとドリンク冷却を終える",
+  "status": "backlog",
+  "priority": 780,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "drinks",
+    "front-of-house",
+    "setup"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-ajzry",
+    "t-rcsa9"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "食器・カトラリーを5品分数えて不足を確認",
+      "done": false
+    },
+    {
+      "text": "グラスは15名分＋予備",
+      "done": false
+    },
+    {
+      "text": "持ち込み酒の可否と保管場所を会場規定で確認",
+      "done": false
+    },
+    {
+      "text": "ノンアルコールを最低1種用意",
+      "done": false
+    },
+    {
+      "text": "アレルギー申告者の席を厨房側に配置",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-0qec2.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T07:00:00Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "t-wftv2",
+  "title": "当日仕上げの肉の加熱時間と芯温を試作で実測する",
+  "status": "backlog",
+  "priority": 290,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "day-of-finish",
+    "measurement",
+    "trial-cooking"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-60da9",
+    "t-ajzry"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "芯温計の電池を確認する",
+      "done": false
+    },
+    {
+      "text": "休ませ時間を実測する",
+      "done": false
+    },
+    {
+      "text": "天板 2 枚同時投入時の庫内温度低下を記録する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-wftv2.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-08T14:59:59Z"
+}

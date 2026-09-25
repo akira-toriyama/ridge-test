@@ -1,0 +1,51 @@
+{
+  "id": "t-bc820",
+  "title": "酒とソフトドリンクの銘柄と本数を決めて発注する",
+  "status": "backlog",
+  "priority": 210,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "blocked-by-venue",
+    "drinks",
+    "order"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-jeq5f",
+    "t-p1j70",
+    "t-s9g35"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "持ち込み可否と持ち込み料を確認する",
+      "done": false
+    },
+    {
+      "text": "飲む/飲まないの人数を申告から拾う",
+      "done": false
+    },
+    {
+      "text": "1人あたり本数を決めて総量を出す",
+      "done": false
+    },
+    {
+      "text": "白・赤・スパークリングの比率を5品に合わせて決める",
+      "done": false
+    },
+    {
+      "text": "グラス数（[[t-4561x]] の食器数）と氷の量を突き合わせる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-bc820.md",
+  "epic": "e-fmzj4",
+  "due": "2026-11-09T14:59:59Z"
+}

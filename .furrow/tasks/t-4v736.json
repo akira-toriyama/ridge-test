@@ -1,0 +1,40 @@
+{
+  "id": "t-4v736",
+  "title": "仕込みの実測時間と歩留まりを記録に残す",
+  "status": "icebox",
+  "priority": 120,
+  "value": 2,
+  "effort": 2,
+  "labels": [
+    "measurement",
+    "next-time",
+    "retro"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-320nv"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "各仕込み task の実作業時間を転記する",
+      "done": false
+    },
+    {
+      "text": "廃棄した食材と量を書く",
+      "done": false
+    },
+    {
+      "text": "見積もり effort と実測のずれを 1 行で書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-4v736.md",
+  "epic": "e-yz3vv"
+}

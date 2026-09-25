@@ -1,0 +1,44 @@
+{
+  "id": "t-dwkbd",
+  "title": "確定した会場・住所・集合時刻をゲスト 12 名に正式案内する",
+  "status": "backlog",
+  "priority": 500,
+  "value": 4,
+  "effort": 1,
+  "labels": [
+    "guest-comms"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-0mkpw",
+    "t-x84r3"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "会場名・住所・最寄駅からの徒歩経路を書く",
+      "done": false
+    },
+    {
+      "text": "入場 17:00 / 着席 17:30 / 解散 21:00 を明記する",
+      "done": false
+    },
+    {
+      "text": "持ち物なしと明記する",
+      "done": false
+    },
+    {
+      "text": "12 名全員の既読または返信を確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-dwkbd.md",
+  "epic": "e-7y5ed",
+  "due": "2026-10-24T14:59:59Z"
+}

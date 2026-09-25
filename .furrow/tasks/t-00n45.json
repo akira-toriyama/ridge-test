@@ -1,0 +1,35 @@
+{
+  "id": "t-00n45",
+  "title": "調理風景のタイムラプス動画を撮る",
+  "status": "icebox",
+  "priority": 170,
+  "value": 1,
+  "effort": 2,
+  "labels": [
+    "nice-to-have",
+    "photo"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-d7k40"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "三脚かスマホスタンドの要否を確認",
+      "done": false
+    },
+    {
+      "text": "厨房の電源とスマホの充電を確保",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-00n45.md",
+  "epic": "e-v1f2x"
+}

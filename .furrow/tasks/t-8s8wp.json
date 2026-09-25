@@ -1,0 +1,44 @@
+{
+  "id": "t-8s8wp",
+  "title": "甲殻類アレルギー申告者に重症度と同一器具・油の可否を直接確認する",
+  "status": "backlog",
+  "priority": 440,
+  "value": 5,
+  "effort": 1,
+  "labels": [
+    "dietary",
+    "risk"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-heqrm"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "本人に電話または対面で聞く",
+      "done": false
+    },
+    {
+      "text": "重症度(接触/加熱蒸気/微量混入)を記録する",
+      "done": false
+    },
+    {
+      "text": "エピペン携行の有無を聞く",
+      "done": false
+    },
+    {
+      "text": "申告ゼロだった場合もその旨を申告表に書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-8s8wp.md",
+  "epic": "e-7y5ed",
+  "due": "2026-10-14T14:59:59Z"
+}

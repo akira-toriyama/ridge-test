@@ -1,0 +1,43 @@
+{
+  "id": "t-6gzmh",
+  "title": "食器と調理器具を全部洗って会場の所定位置に戻す",
+  "status": "backlog",
+  "priority": 540,
+  "value": 4,
+  "effort": 4,
+  "labels": [
+    "cand-a",
+    "d0-night",
+    "dishes",
+    "teardown"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-mkkg2",
+    "t-n5rkw"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "借用時の食器棚とコンロ周りを写真に撮る",
+      "done": false
+    },
+    {
+      "text": "食洗機の1巡時間を当日 15:40 までに実測する（[[t-ns73f]] の空運転で計る）",
+      "done": false
+    },
+    {
+      "text": "割れ・欠けはその場で会場に連絡する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-6gzmh.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-21T12:40:00Z"
+}

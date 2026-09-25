@@ -1,0 +1,46 @@
+{
+  "id": "t-5gyzv",
+  "title": "日持ち食材の一次買い出しを終える",
+  "status": "backlog",
+  "priority": 320,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "budget",
+    "procurement",
+    "shopping"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-2hmak",
+    "t-b2phe"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "レシートを撮影して合計金額を body に追記する",
+      "done": false
+    },
+    {
+      "text": "冷凍可の肉・魚を先に冷凍庫へ入れる",
+      "done": false
+    },
+    {
+      "text": "ラップ・ジップ袋・キッチンペーパーの数を数える",
+      "done": false
+    },
+    {
+      "text": "精肉店・鮮魚店に D-1 受け取りの予約を入れる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-5gyzv.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-13T14:59:59Z"
+}

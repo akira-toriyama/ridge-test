@@ -1,0 +1,42 @@
+{
+  "id": "t-6vsd0",
+  "title": "会場設備との差分から器具持ち込みリストを確定する",
+  "status": "backlog",
+  "priority": 300,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "checklist",
+    "equipment",
+    "venue-dependent"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-2hmak",
+    "t-ajzry"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "バット・シノワ・芯温計・トング・まな板の必要数を数える",
+      "done": false
+    },
+    {
+      "text": "食洗機の有無で洗い物計画を分岐させる",
+      "done": false
+    },
+    {
+      "text": "ゴミの持ち帰り規定を確認してゴミ袋の数を決める",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-6vsd0.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-09T14:59:59Z"
+}

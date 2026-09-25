@@ -1,0 +1,51 @@
+{
+  "id": "t-06ygf",
+  "title": "16:50 に提供手順を読み合わせアレルギー皿を分離する",
+  "status": "backlog",
+  "priority": 790,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "allergy",
+    "briefing",
+    "food-safety"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-90na0",
+    "t-rcsa9",
+    "t-xfxyf"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "差し替え皿にマスキングテープで名前を貼る",
+      "done": false
+    },
+    {
+      "text": "専用のトングと置き場所を決める",
+      "done": false
+    },
+    {
+      "text": "差し替え皿の提供者を1名に固定",
+      "done": false
+    },
+    {
+      "text": "誤提供が起きた場合の回収手順を口頭で共有",
+      "done": false
+    },
+    {
+      "text": "厨房の壁に時刻表を貼る",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-06ygf.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T07:50:00Z"
+}

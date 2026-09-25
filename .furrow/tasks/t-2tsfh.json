@@ -1,0 +1,35 @@
+{
+  "id": "t-2tsfh",
+  "title": "BGM プレイリストを作り当日 17:00 から流す",
+  "status": "icebox",
+  "priority": 160,
+  "value": 2,
+  "effort": 1,
+  "labels": [
+    "ambience",
+    "nice-to-have"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-ajzry"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "会場のスピーカー有無を確認",
+      "done": false
+    },
+    {
+      "text": "Bluetooth スピーカーを持参するか決める",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-2tsfh.md",
+  "epic": "e-v1f2x"
+}

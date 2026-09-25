@@ -1,0 +1,44 @@
+{
+  "id": "t-vxdkr",
+  "title": "会場候補 6 件を洗い出して比較表の基本情報を埋める",
+  "status": "done",
+  "priority": 100,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "research",
+    "venue-selection"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [],
+  "refs": [
+    "file:notes/venue-compare.md:1"
+  ],
+  "checklist": [
+    {
+      "text": "候補 6 件の URL を比較表に貼る",
+      "done": true
+    },
+    {
+      "text": "所在地と最寄駅を記入する",
+      "done": true
+    },
+    {
+      "text": "時間単価と最低利用時間を記入する",
+      "done": true
+    },
+    {
+      "text": "15 名着席可否を記入する",
+      "done": true
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": "2026-09-25T06:31:47Z",
+  "reviewed": null,
+  "body": "bodies/t-vxdkr.md",
+  "epic": "e-7y5ed",
+  "due": "2026-09-07T14:59:59Z"
+}

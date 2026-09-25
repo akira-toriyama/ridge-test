@@ -1,0 +1,41 @@
+{
+  "id": "t-h9y8j",
+  "title": "不足器具を借用・購入して手元に揃える",
+  "status": "backlog",
+  "priority": 330,
+  "value": 3,
+  "effort": 2,
+  "labels": [
+    "equipment",
+    "procurement",
+    "waiting-inline"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-6vsd0"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "借用品に持ち主名のテープを貼る",
+      "done": false
+    },
+    {
+      "text": "購入分の金額を body に追記する",
+      "done": false
+    },
+    {
+      "text": "自宅で一度出してサイズと動作を確認する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-h9y8j.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-14T14:59:59Z"
+}

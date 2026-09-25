@@ -1,0 +1,40 @@
+{
+  "id": "t-76h8v",
+  "title": "一人当たりの精算額を算出して内訳をゲストに配る",
+  "status": "backlog",
+  "priority": 610,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "money",
+    "settlement"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-k6aqd"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "手伝い2名の参加費免除を明記する",
+      "done": false
+    },
+    {
+      "text": "端数の処理方法を1行で書く",
+      "done": false
+    },
+    {
+      "text": "立替者への返金額を別項で書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-76h8v.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-26T14:59:59Z"
+}

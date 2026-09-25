@@ -1,0 +1,53 @@
+{
+  "id": "t-jeq5f",
+  "title": "候補 3 件の持ち込み酒可否とゴミ持ち帰り規定を書面で取り付ける",
+  "status": "waiting",
+  "priority": 110,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "cand-a",
+    "cand-b",
+    "cand-c",
+    "external-wait",
+    "venue-rules"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-hfssc"
+  ],
+  "refs": [
+    "file:notes/venue-compare.md:40"
+  ],
+  "checklist": [
+    {
+      "text": "A に電話内容のメール化を依頼する",
+      "done": false
+    },
+    {
+      "text": "B の回答(持込料 1,000 円/本)を比較表に転記する",
+      "done": false
+    },
+    {
+      "text": "C の回答を待つ",
+      "done": false
+    },
+    {
+      "text": "ゴミの持ち帰り/引き取りを 3 件分記入する",
+      "done": false
+    },
+    {
+      "text": "入館可能時刻と事前入館料（15:00 入館の可否）を 3 件分、比較表の「入館可能時刻と事前入館料」節に記入する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-jeq5f.md",
+  "epic": "e-7y5ed",
+  "due": "2026-09-24T14:59:59Z"
+}

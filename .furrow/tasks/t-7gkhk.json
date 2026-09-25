@@ -1,0 +1,48 @@
+{
+  "id": "t-7gkhk",
+  "title": "当日タイムテーブルを1枚に確定して2部印刷する",
+  "status": "backlog",
+  "priority": 690,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "d0-ops",
+    "planning",
+    "timeline"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-b792n",
+    "t-kv7m8",
+    "t-p1j70",
+    "t-vrt4b"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "各皿の提供時刻と火入れ開始時刻を明記",
+      "done": false
+    },
+    {
+      "text": "22:00 完全撤収から逆算した撤収開始時刻を記載",
+      "done": false
+    },
+    {
+      "text": "自分用・手伝い用・厨房貼付用の3部を印刷",
+      "done": false
+    },
+    {
+      "text": "手伝い2名の担当を時間帯ごとに色分け",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-7gkhk.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-15T12:00:00Z"
+}

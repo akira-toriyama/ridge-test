@@ -1,0 +1,49 @@
+{
+  "id": "t-rcsa9",
+  "title": "回収したアレルギー申告を献立案に突き合わせて抵触品目を一覧化する",
+  "status": "backlog",
+  "priority": 110,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "allergy",
+    "intake"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-6qgj7",
+    "t-heqrm"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "12名分の回答を1行1名で転記する",
+      "done": false
+    },
+    {
+      "text": "未回答者を名指しで残し、督促を会場 epic の週次督促（[[t-7wpvb]]）に戻す",
+      "done": false
+    },
+    {
+      "text": "抵触した案と品目を対にして書く",
+      "done": false
+    },
+    {
+      "text": "「加熱すれば可」など条件付きの回答を別枠にする",
+      "done": false
+    },
+    {
+      "text": "手伝い2名と自分の申告も同じ表に入れる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-rcsa9.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-16T14:59:59Z"
+}

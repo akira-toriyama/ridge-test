@@ -1,0 +1,44 @@
+{
+  "id": "t-x84r3",
+  "title": "未返信 2 名を追い欠員を補欠で埋めて出席 12 名を確定する",
+  "status": "waiting",
+  "priority": 120,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "external-wait",
+    "guest-comms"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-bksph"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "未返信 2 名に個別 DM を再送する",
+      "done": false
+    },
+    {
+      "text": "NG 1 名の欠員を補欠リストから埋める",
+      "done": false
+    },
+    {
+      "text": "出欠表を出席 12 名で閉じる",
+      "done": false
+    },
+    {
+      "text": "全員の連絡手段(LINE/電話)を揃える",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-x84r3.md",
+  "epic": "e-7y5ed",
+  "due": "2026-09-29T14:59:59Z"
+}

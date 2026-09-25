@@ -1,0 +1,55 @@
+{
+  "id": "t-xfxyf",
+  "title": "16:45 に手伝い2名へ役割カードを配りブリーフィングを終える",
+  "status": "backlog",
+  "priority": 740,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "briefing",
+    "d0-ops",
+    "staff"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-3msj0",
+    "t-7gkhk",
+    "t-s8hbs"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "役割カード2枚を印刷して持参",
+      "done": false
+    },
+    {
+      "text": "提供順と各皿の担当を読み合わせ",
+      "done": false
+    },
+    {
+      "text": "アレルギー皿の見分け方を共有",
+      "done": false
+    },
+    {
+      "text": "ゴミの分別と持ち帰り規定を共有",
+      "done": false
+    },
+    {
+      "text": "撮影担当を1名に固定",
+      "done": false
+    },
+    {
+      "text": "迷ったら自分に確認、というエスカレーション線を明示",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-xfxyf.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T07:45:00Z"
+}

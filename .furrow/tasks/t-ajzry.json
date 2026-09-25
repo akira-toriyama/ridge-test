@@ -1,0 +1,47 @@
+{
+  "id": "t-ajzry",
+  "title": "確定会場の設備インベントリ確定版を凍結して献立 epic へ引き渡す",
+  "status": "backlog",
+  "priority": 480,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "handoff",
+    "inventory"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-0mkpw",
+    "t-tmjpe"
+  ],
+  "refs": [
+    "file:notes/venue-final-inventory.md:1"
+  ],
+  "checklist": [
+    {
+      "text": "確定会場の列を抜き出して確定版シートを作る",
+      "done": false
+    },
+    {
+      "text": "コンロとオーブンの同時使用可否を数値で確定する",
+      "done": false
+    },
+    {
+      "text": "持ち込み酒可否とゴミ規定を同じシートに載せる",
+      "done": false
+    },
+    {
+      "text": "menu 側の task に refs を渡す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-ajzry.md",
+  "epic": "e-7y5ed",
+  "due": "2026-10-10T14:59:59Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "t-2tx0t",
+  "title": "会場の評価を記録して次回候補リストを更新する",
+  "status": "icebox",
+  "priority": 130,
+  "value": 2,
+  "effort": 1,
+  "labels": [
+    "next-time",
+    "venue-review"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-8vr23"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "撤収動線(搬出口・エレベーター)の使い勝手を書く",
+      "done": false
+    },
+    {
+      "text": "次も使うかを Yes/No で言い切る",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-2tx0t.md",
+  "epic": "e-ba1b2",
+  "due": "2026-12-12T14:59:59Z"
+}

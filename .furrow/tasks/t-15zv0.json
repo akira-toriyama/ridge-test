@@ -1,0 +1,44 @@
+{
+  "id": "t-15zv0",
+  "title": "甲殻類とベジ対応の代替皿を品ごとに1つずつ決める",
+  "status": "backlog",
+  "priority": 120,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "allergy",
+    "menu-design"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-rcsa9"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "抵触者ごとに何皿が代替になるか数える",
+      "done": false
+    },
+    {
+      "text": "本皿と同じ工程で作れる代替案を優先する",
+      "done": false
+    },
+    {
+      "text": "盛り付けが本皿と同じに見えるか確認する",
+      "done": false
+    },
+    {
+      "text": "代替分の食材を [[t-b2phe]] の買い物リスト側に足す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-15zv0.md",
+  "epic": "e-fmzj4",
+  "due": "2026-10-20T14:59:59Z"
+}

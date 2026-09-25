@@ -1,0 +1,45 @@
+{
+  "id": "t-05fpn",
+  "title": "生鮮・氷の最終買い出しと予約品の受け取りを終える",
+  "status": "backlog",
+  "priority": 390,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "budget",
+    "fresh",
+    "shopping"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-5gyzv"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "予約分の受け取り時刻を前日に確認する",
+      "done": false
+    },
+    {
+      "text": "氷は最後に買う",
+      "done": false
+    },
+    {
+      "text": "レシートを 1 か所にまとめて金額を body に追記する",
+      "done": false
+    },
+    {
+      "text": "食材費の残額を確認してから買う",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-05fpn.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-20T02:00:00Z"
+}

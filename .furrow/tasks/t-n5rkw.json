@@ -1,0 +1,49 @@
+{
+  "id": "t-n5rkw",
+  "title": "冷蔵と芯温の測定を当日4回行い記録に残す",
+  "status": "backlog",
+  "priority": 760,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "d0-ops",
+    "food-safety",
+    "temperature"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-ns73f"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "16:00 搬入直後の冷蔵庫庫内温度",
+      "done": false
+    },
+    {
+      "text": "17:00 冷蔵庫と仕込み品の中心温度",
+      "done": false
+    },
+    {
+      "text": "18:30 デザートとドリンクの温度",
+      "done": false
+    },
+    {
+      "text": "19:00 肉の芯温",
+      "done": false
+    },
+    {
+      "text": "10℃超が出たら [[t-77srk]] のクーラーボックス運用に切り替える",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-n5rkw.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T10:00:00Z"
+}

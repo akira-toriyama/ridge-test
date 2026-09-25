@@ -1,0 +1,47 @@
+{
+  "id": "t-a7x1g",
+  "title": "19:00 に肉の火入れを開始し 19:30 に12皿を提供する",
+  "status": "backlog",
+  "priority": 820,
+  "value": 5,
+  "effort": 4,
+  "labels": [
+    "cooking",
+    "main-dish",
+    "timeline"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-kv7m8",
+    "t-mtw1d",
+    "t-s8hbs"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "18:30 にオーブン予熱を開始",
+      "done": false
+    },
+    {
+      "text": "芯温計で仕上がりを確認",
+      "done": false
+    },
+    {
+      "text": "休ませている間に付け合わせと皿を温める",
+      "done": false
+    },
+    {
+      "text": "12皿を2人で同時に運ぶ合図を決める",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-a7x1g.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T10:30:00Z"
+}

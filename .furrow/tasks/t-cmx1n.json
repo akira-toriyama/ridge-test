@@ -1,0 +1,43 @@
+{
+  "id": "t-cmx1n",
+  "title": "5品のレシピと工程表を実績値に直してアーカイブする",
+  "status": "backlog",
+  "priority": 670,
+  "value": 4,
+  "effort": 3,
+  "labels": [
+    "archive",
+    "recipes"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-4r0en",
+    "t-nth41"
+  ],
+  "refs": [
+    "file:notes/recipes.md"
+  ],
+  "checklist": [
+    {
+      "text": "5品すべてに実測の所要時間を入れる",
+      "done": false
+    },
+    {
+      "text": "会場設備の制約(コンロ口数/オーブン)を各レシピに注記する",
+      "done": false
+    },
+    {
+      "text": "作り直すなら変える点を1品1行で書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-cmx1n.md",
+  "epic": "e-ba1b2",
+  "due": "2026-12-01T14:59:59Z"
+}

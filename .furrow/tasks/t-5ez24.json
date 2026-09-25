@@ -1,0 +1,51 @@
+{
+  "id": "t-5ez24",
+  "title": "17:00 に入場を迎え 17:30 に全員を着席させる",
+  "status": "backlog",
+  "priority": 800,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "front-of-house",
+    "guest",
+    "service"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-06ygf",
+    "t-0qec2",
+    "t-99n5x"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "入口の解錠と案内表示の掲出",
+      "done": false
+    },
+    {
+      "text": "ウェルカムドリンクを入場順に配る",
+      "done": false
+    },
+    {
+      "text": "コートと荷物の置き場所を案内",
+      "done": false
+    },
+    {
+      "text": "17:25 に未到着の人数を数える",
+      "done": false
+    },
+    {
+      "text": "17:30 に定刻着席をアナウンス",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-5ez24.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T08:30:00Z"
+}

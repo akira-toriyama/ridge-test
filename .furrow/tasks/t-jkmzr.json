@@ -1,0 +1,38 @@
+{
+  "id": "t-jkmzr",
+  "title": "鍵を返却して退出完了の確認を会場から取る",
+  "status": "backlog",
+  "priority": 570,
+  "value": 5,
+  "effort": 1,
+  "labels": [
+    "d0-night",
+    "keys",
+    "venue-return"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-b792n",
+    "t-r9bq7"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "返却方法と連絡先を当日朝に再確認する",
+      "done": false
+    },
+    {
+      "text": "返却した鍵の写真を撮って会場に送る",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-jkmzr.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-21T13:00:00Z"
+}

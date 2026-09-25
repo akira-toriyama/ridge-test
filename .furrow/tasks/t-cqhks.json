@@ -1,0 +1,50 @@
+{
+  "id": "t-cqhks",
+  "title": "会場を 1 件に決定して決定理由と次点を比較表に記録する",
+  "status": "backlog",
+  "priority": 450,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "cand-a",
+    "cand-b",
+    "cand-c",
+    "decision",
+    "venue-selection"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-2qg4n",
+    "t-3sec8",
+    "t-jeq5f",
+    "t-tdxf2",
+    "t-tmjpe",
+    "t-x84r3"
+  ],
+  "refs": [
+    "file:notes/venue-compare.md:1"
+  ],
+  "checklist": [
+    {
+      "text": "5 軸の採点表を body に書く",
+      "done": false
+    },
+    {
+      "text": "次点と落選理由を 1 行ずつ書く",
+      "done": false
+    },
+    {
+      "text": "決定を手伝い 2 名に共有する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-cqhks.md",
+  "epic": "e-7y5ed",
+  "due": "2026-10-03T14:59:59Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "e-yz3vv",
+  "title": "前日までの仕込みを終える",
+  "goal": "当日仕上げ以外の仕込みが終わり、運搬手段と当日タイムテーブルが用意できている",
+  "active": false,
+  "labels": [
+    "event",
+    "prep"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "meta": {
+    "slug": "prep"
+  },
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "body": "bodies/e-yz3vv.md",
+  "deps": [
+    "e-fmzj4"
+  ],
+  "standing": false,
+  "pinned": false
+}

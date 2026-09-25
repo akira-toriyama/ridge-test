@@ -1,0 +1,41 @@
+{
+  "id": "t-nfyam",
+  "title": "保冷剤と保存容器の必要量を算出して買い揃える",
+  "status": "backlog",
+  "priority": 310,
+  "value": 3,
+  "effort": 2,
+  "labels": [
+    "cold-chain",
+    "logistics",
+    "supplies"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-rvpcz"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "ラベル用紙と油性マジックを買う",
+      "done": false
+    },
+    {
+      "text": "空のクーラーボックスに容器を詰めて実測する",
+      "done": false
+    },
+    {
+      "text": "保冷剤を凍らせる枠を工程表に入れる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-nfyam.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-12T14:59:59Z"
+}

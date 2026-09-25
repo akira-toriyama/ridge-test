@@ -1,0 +1,48 @@
+{
+  "id": "t-mkkg2",
+  "title": "撤収タイムライン(20:45-22:00)を作り手伝い2名に配る",
+  "status": "backlog",
+  "priority": 520,
+  "value": 5,
+  "effort": 2,
+  "labels": [
+    "cand-a",
+    "d0-night",
+    "planning",
+    "teardown"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-7gkhk",
+    "t-jeq5f",
+    "t-tdxf2"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "ゴミ搬出の開始時刻を表に書く",
+      "done": false
+    },
+    {
+      "text": "食洗機の最終稼働開始時刻を逆算して書く",
+      "done": false
+    },
+    {
+      "text": "21:50 時点で未完なら切り捨てる作業の順位を書く",
+      "done": false
+    },
+    {
+      "text": "手伝い2名から受領返信を取る",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-mkkg2.md",
+  "epic": "e-ba1b2",
+  "due": "2026-11-20T12:00:00Z"
+}

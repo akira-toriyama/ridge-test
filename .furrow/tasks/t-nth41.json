@@ -1,0 +1,50 @@
+{
+  "id": "t-nth41",
+  "title": "20:15 にデザートを出し 21:00 に解散をアナウンスする",
+  "status": "backlog",
+  "priority": 830,
+  "value": 4,
+  "effort": 2,
+  "labels": [
+    "closing",
+    "guest",
+    "service"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-90na0",
+    "t-a7x1g"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "20:15 デザート",
+      "done": false
+    },
+    {
+      "text": "20:30 コーヒー・茶",
+      "done": false
+    },
+    {
+      "text": "20:50 に 21:00 解散を予告",
+      "done": false
+    },
+    {
+      "text": "忘れ物の呼びかけ",
+      "done": false
+    },
+    {
+      "text": "21:00 に厨房の洗い物を開始",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-nth41.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T12:00:00Z"
+}

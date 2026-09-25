@@ -1,0 +1,48 @@
+{
+  "id": "t-3py5f",
+  "title": "当日火入れする肉の下処理を終えて冷蔵する",
+  "status": "backlog",
+  "priority": 400,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "day-of-finish",
+    "meat",
+    "prep-only"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-05fpn",
+    "t-wftv2"
+  ],
+  "refs": [
+    "https://www.mhlw.go.jp/topics/syokuchu/kateide.html"
+  ],
+  "checklist": [
+    {
+      "text": "筋と余分な脂を落とす",
+      "done": false
+    },
+    {
+      "text": "真空袋に品名と塩当て時刻を書く",
+      "done": false
+    },
+    {
+      "text": "常温に戻す時刻をタイムテーブルに書く",
+      "done": false
+    },
+    {
+      "text": "芯温計とタイマーを同じ箱に入れる",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-3py5f.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-20T06:00:00Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "e-v1f2x",
+  "title": "当日オペレーションを回す",
+  "goal": "17:30 着席から 21:00 解散までを事故なく回し切る",
+  "active": false,
+  "labels": [
+    "dayof",
+    "event"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "meta": {
+    "slug": "dayof"
+  },
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "body": "bodies/e-v1f2x.md",
+  "deps": [
+    "e-7y5ed",
+    "e-yz3vv"
+  ],
+  "standing": false,
+  "pinned": false
+}

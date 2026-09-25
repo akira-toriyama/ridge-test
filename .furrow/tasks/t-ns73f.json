@@ -1,0 +1,57 @@
+{
+  "id": "t-ns73f",
+  "title": "15:00 に鍵を受け取り 16:00 までに搬入と冷蔵格納を終える",
+  "status": "backlog",
+  "priority": 720,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "cand-a",
+    "d0-ops",
+    "keys",
+    "load-in"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-320nv",
+    "t-5gyzv",
+    "t-b792n",
+    "t-h9y8j"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "鍵の受渡し方法と担当者連絡先を携帯に控える",
+      "done": false
+    },
+    {
+      "text": "要冷蔵・冷凍を最優先で運び入れる",
+      "done": false
+    },
+    {
+      "text": "[[t-320nv]] のパッキングリストと突合して欠品を確定",
+      "done": false
+    },
+    {
+      "text": "冷蔵庫の庫内温度を1回記録",
+      "done": false
+    },
+    {
+      "text": "台車・クーラーボックスの返却時刻を確認",
+      "done": false
+    },
+    {
+      "text": "食洗機を空で 1 サイクル回す（15:00 着手・搬入と並行、1 巡の所要を実測する）",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-ns73f.md",
+  "epic": "e-v1f2x",
+  "due": "2026-11-21T07:00:00Z"
+}

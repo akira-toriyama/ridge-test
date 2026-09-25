@@ -1,0 +1,38 @@
+{
+  "id": "t-fedrk",
+  "title": "次回開催の要否を判定して日程候補を3つ確定する",
+  "status": "icebox",
+  "priority": 140,
+  "value": 2,
+  "effort": 1,
+  "labels": [
+    "next-time",
+    "recurring"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-hmwh2"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "やる/やらないを言い切る",
+      "done": false
+    },
+    {
+      "text": "やるなら候補日を3つ書く",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-fedrk.md",
+  "epic": "e-ba1b2",
+  "due": "2027-05-20T14:59:59Z",
+  "repeat": "FREQ=MONTHLY;INTERVAL=6",
+  "repeat_anchor": "2027-05-20T14:59:59Z"
+}

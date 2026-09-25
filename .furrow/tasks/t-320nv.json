@@ -1,0 +1,51 @@
+{
+  "id": "t-320nv",
+  "title": "仕込み品にラベルを貼り搬入順に積載する",
+  "status": "backlog",
+  "priority": 420,
+  "value": 5,
+  "effort": 3,
+  "labels": [
+    "labeling",
+    "logistics",
+    "packing"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-3py5f",
+    "t-7ermb",
+    "t-h9y8j",
+    "t-mscwv",
+    "t-nfyam",
+    "t-y96qv",
+    "t-ycpgc"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "ラベルの記載 4 項目（品名/仕込み日/保存方法/皿番号）をそろえる",
+      "done": false
+    },
+    {
+      "text": "箱ごとに中身リストを外側に貼る",
+      "done": false
+    },
+    {
+      "text": "保冷剤が凍っているか確認する",
+      "done": false
+    },
+    {
+      "text": "当日朝にクーラーボックスへ移す品を一覧にする",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-320nv.md",
+  "epic": "e-yz3vv",
+  "due": "2026-11-20T13:00:00Z"
+}

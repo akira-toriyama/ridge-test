@@ -1,0 +1,39 @@
+{
+  "id": "t-ntsbe",
+  "title": "申し送りを読み直して陳腐化した項目を書き換える",
+  "status": "icebox",
+  "priority": 150,
+  "value": 2,
+  "effort": 1,
+  "labels": [
+    "handoff",
+    "next-time",
+    "recurring"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-hmwh2"
+  ],
+  "refs": [],
+  "checklist": [
+    {
+      "text": "会場の料金と営業状況を確認する",
+      "done": false
+    },
+    {
+      "text": "古くなった行を残さず消す",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-ntsbe.md",
+  "epic": "e-ba1b2",
+  "due": "2027-11-21T14:59:59Z",
+  "repeat": "FREQ=MONTHLY;INTERVAL=12",
+  "repeat_anchor": "2027-11-21T14:59:59Z"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "t-2qg4n",
+  "title": "C 会場から見積書と設備回答を受領して比較表の C 列を埋める",
+  "status": "waiting",
+  "priority": 100,
+  "value": 3,
+  "effort": 1,
+  "labels": [
+    "cand-c",
+    "external-wait",
+    "venue-selection"
+  ],
+  "repos": [
+    "akira-toriyama/ridge-test"
+  ],
+  "deps": [
+    "t-hfssc"
+  ],
+  "refs": [
+    "https://c-kitchen.example/contact",
+    "file:notes/venue-compare.md:1"
+  ],
+  "checklist": [
+    {
+      "text": "9/22 18:00 時点で未着なら電話する",
+      "done": true
+    },
+    {
+      "text": "見積書 PDF を保存してパスを body に書く",
+      "done": false
+    },
+    {
+      "text": "設備 9 項目を C 列に転記する",
+      "done": false
+    }
+  ],
+  "created": "2026-09-25T06:31:47Z",
+  "updated": "2026-09-25T06:31:47Z",
+  "closed": null,
+  "reviewed": null,
+  "body": "bodies/t-2qg4n.md",
+  "epic": "e-7y5ed",
+  "due": "2026-09-22T09:00:00Z"
+}
