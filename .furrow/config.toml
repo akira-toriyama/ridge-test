@@ -1,4 +1,4 @@
-# furrow — repo-local configuration (.furrow/config.toml).
+# furrow — board configuration (.furrow/config.toml).
 # https://github.com/akira-toriyama/furrow
 #
 # Ordinary furrow commands only READ this file; the one writer is
@@ -6,12 +6,15 @@
 # preserves comments. Unknown keys and out-of-range values are clamped to safe
 # defaults on read (a typo can't break the tool); `furrow lint` reports what it clamped, unknown keys with their line.
 #
-# Two top-level switches (bare keys — TOML requires them ABOVE the [sections]):
+# Two top-level keys (bare — TOML requires them ABOVE the [sections]):
 #
-# A local single-machine board with no remote, no `furrow sync`, and no CI.
-# Changes only wording (`furrow upgrade` drops the shared-board flag-day
-# checklist) — never behavior, the schema gate, or an on-disk byte.
-# standalone = false
+# The board's MODE: "shared" (a git remote and co-writers — the default) or
+# "standalone" (one machine, its own git, no remote, no `furrow sync`, no CI).
+# It changes only wording (`furrow upgrade` drops the shared-board flag-day
+# checklist) — never behavior, the schema gate, or an on-disk byte. The OTHER
+# axis, layout (central / repo-local), is not configured: it follows from how
+# discovery reached this board. `furrow board` prints both.
+# mode = "shared"
 #
 # The repo this board is FOR. `furrow add` attaches it and reads filter by it
 # whenever discovery supplied no scope of its own — i.e. from inside the board's
@@ -20,26 +23,27 @@
 # only: this file is committed and shared, so "auto" is refused (a derived repo
 # would differ per checkout, which is the cwd-dependence this key removes).
 # default_repo = "owner/repo"
+default_repo = "akira-toriyama/ridge-test"
 
 [lanes]
 # The status enum AND the top->bottom sort rank. Mirrors GitHub Projects #5.
 # Editing this list is how you rename or reorder statuses. A task whose status
 # is not in this list sorts last and is flagged by `furrow lint`.
 # "waiting" is the GTD Waiting-For lane (delegated / blocked on someone else).
-order = ["inbox", "backlog", "ready", "in-progress", "done", "icebox"]
+order = ["inbox", "backlog", "in-progress", "ready", "waiting", "done", "icebox"]
 # Lane assigned by `furrow add` when --status is omitted.
 default = "inbox"
 # Lane `furrow done` moves a task into (and where Closed is stamped).
 done = "done"
 # Lanes whose tasks are NOT actionable for `furrow next` (done, parked,
 # and waiting-for — the last two are parked, so they never stamp Closed).
-terminal = ["done", "icebox"]
+terminal = ["done", "icebox", "waiting"]
 
 [next]
 # Lanes `furrow next` considers "ready to work" (besides the deps-done
 # check). Intake/planning lanes are excluded so next stays focused. Set to all
 # non-terminal lanes if you want next to show everything actionable.
-lanes = ["ready", "in-progress"]
+lanes = ["in-progress", "ready"]
 
 [priority]
 # Sparse integer step so reordering edits one field instead of renumbering.
@@ -103,6 +107,7 @@ older_than_days = 30
 # clamped away with a warning; a code naming no real check warns via `furrow lint`.
 # [lint.severity]
 # due-overdue = "warn"
+provenance_markers = ["完了条件:"]
 
 [due]
 # Lanes where a due date raises NOTHING — no lint finding, no `furrow brief`
@@ -111,6 +116,19 @@ older_than_days = 30
 # "waiting" is terminal here, and a waiting task whose only remaining step is
 # "look at this on that day" is exactly what a due date is for.
 # ignore_lanes = ["icebox"]
+
+# The calendar this board keeps. An IANA zone name; unset means the zone of
+# whatever process runs the command. Declared here because config.toml is
+# committed and shared: a bare --due date binds the END of that day, and "that
+# day" has to mean one thing whether the operator's machine or a UTC CI runner
+# writes it. A name that will not load falls back to the process zone with a
+# warning that furrow lint surfaces. A shared board that carries a REPEATING
+# task needs one: its series is expanded, and the day a close settles is
+# chosen, in the zone of whichever machine closes it, so a UTC CI runner lands
+# a weekly/monthly occurrence a day off for anyone bound in another zone —
+# furrow lint errors repeat-no-timezone until the calendar is declared.
+# timezone = "Asia/Tokyo"
+timezone = "Asia/Tokyo"
 
 [revisit]
 # Days a task may go without an update before `furrow revisit` flags it
@@ -124,6 +142,21 @@ stale_days = 30
 # revisit raises epic_review_due — one review clock for the whole board.
 # 0 disables both. A never-reviewed repo or box stays quiet either way.
 stale_after_days = 14
+
+[session]
+# The co-located-session write guard, active only under Claude Code (the
+# CLAUDECODE env; a human shell and CI pass untouched). A write that touches a
+# repo another, EARLIER-started session on this machine sits in is refused
+# (exit 2, kind `session-busy`; `add` escapes with --draft) while that session
+# is working, and goes through with a warning (stderr + `session_warn` in the
+# --json envelope) once it is idle. Idle = that session's transcript ends in an
+# assistant end_turn record (its turn is over, however recent the write), or,
+# when the turn is not known to have ended, it has been silent for more than
+# this many seconds — the ceiling that keeps a long tool call or an unanswered
+# permission prompt from refusing forever. A session whose transcript cannot
+# be found is measured from its start under the same ceiling. 0 turns refusals
+# off: every clash is a warning (the guard stays on).
+busy_seconds = 300
 
 [alias]
 # Board-level command aliases, git-style: `furrow <name> …` expands to the

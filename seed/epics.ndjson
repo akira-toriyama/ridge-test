@@ -1,0 +1,5 @@
+{"key": "e-jd4kb", "title": "会場と日程を確定する", "goal": "会場を本予約し、設備インベントリ・出欠・アレルギー申告が出そろっている", "labels": ["event", "venue"], "meta": {"slug": "venue", "event_date": "2026-11-21"}, "deps": [], "active": true}
+{"key": "e-06m7s", "title": "撤収・精算・振り返りを終える", "goal": "22:00 撤収完了、精算と返金確認が済み、振り返りが board に残っている", "labels": ["event", "wrap"], "meta": {"slug": "wrap"}, "deps": ["当日オペレーションを回す"], "active": false}
+{"key": "e-38f7f", "title": "献立と調達計画を確定する", "goal": "5 品の献立と数量・発注先・予算が確定し、買い物リストが出ている", "labels": ["event", "menu"], "meta": {"slug": "menu"}, "deps": ["会場と日程を確定する"], "active": false}
+{"key": "e-ctr9m", "title": "前日までの仕込みを終える", "goal": "当日仕上げ以外の仕込みが終わり、運搬手段と当日タイムテーブルが用意できている", "labels": ["event", "prep"], "meta": {"slug": "prep"}, "deps": ["献立と調達計画を確定する"], "active": false}
+{"key": "e-hp2zp", "title": "当日オペレーションを回す", "goal": "17:30 着席から 21:00 解散までを事故なく回し切る", "labels": ["dayof", "event"], "meta": {"slug": "dayof"}, "deps": ["前日までの仕込みを終える", "会場と日程を確定する"], "active": false}
